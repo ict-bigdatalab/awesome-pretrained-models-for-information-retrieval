@@ -54,6 +54,10 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding.](https://arxiv.org/pdf/2002.12591.pdf) *Zhang Yuyu, Nie Ping et.al.* SIGIR 2020 short. (**DC-BERT**)
 
 ## Re-ranking Stage
+- [Directly adapting pre-trained models to IR task](#directly-adapting-pre-trained-models-to-IR-task)
+- [Designing new pre-training task](#designing-new-pre-training-task)
+- [Designing new pre-training model architecture](#designing-new-pre-training-model-architecture)
+
 ### Directly adapting pre-trained models to IR task
 - [Passage Re-ranking with BERT.](https://arxiv.org/pdf/1901.04085.pdf) *Rodrigo Nogueira et.al.* [[code](https://github.com/nyu-dl/dl4marco-bert)] (**monoBERT: Maybe the first work on applying BERT to IR**) 
 - [Multi-Stage Document Ranking with BERT.](https://arxiv.org/pdf/1910.14424.pdf) *Rodrigo Nogueira et.al.* (**duoBERT: pointwise+pairwise**)
