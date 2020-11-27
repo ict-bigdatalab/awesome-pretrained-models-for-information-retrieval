@@ -52,6 +52,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Dense Passage Retrieval for Open-Domain Question Answering.](https://arxiv.org/pdf/2004.04906.pdf) *Vladimir Karpukhin,Barlas Oguz et.al.* EMNLP 2020 [[code](https://github.com/facebookresearch/DPR)] (**DPR**)
 - [RocketQA: An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering.](https://arxiv.org/pdf/2010.08191.pdf) *Yingqi Qu et.al.*  (**RocketQA**)
 - [DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding.](https://arxiv.org/pdf/2002.12591.pdf) *Zhang Yuyu, Nie Ping et.al.* SIGIR 2020 short. (**DC-BERT**)
+- [DISTILLING KNOWLEDGE FROM READER TO RETRIEVER FOR QUESTION ANSWERING](https://openreview.net/pdf?id=NTEz-6wysdb) ICLR 2021.
 
 ## Re-ranking Stage
 - [Directly adapting pre-trained models to IR task](#directly-adapting-pre-trained-models-to-IR-task)
