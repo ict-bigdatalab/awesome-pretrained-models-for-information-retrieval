@@ -32,10 +32,10 @@ For people who want to acquire some basic&advanced knowledge about neural models
 
 
 ## First Stage Retrieval
-- [Traditional ad-hoc retrieval](#traditional-ad-hoc-retrieval)
+- [Document retrieval in traditional ad-hoc retrieval](#document-retrieval-in-traditional-ad-hoc-retrieval)
 - [Passage retrieval in open domain question answering](#passage-retrieval-in-open-domain-question-answering)
 
-### Traditional ad-hoc retrieval
+### Document retrieval in traditional ad-hoc retrieval
 - [Context-Aware Term Weighting For First Stage Passage Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3397271.3401204) *Dai Zhuyun et.al.* SIGIR 2020 short. [[code](https://github.com/AdeDZY/DeepCT)] (**DeepCT**)
 - [Context-Aware Document Term Weighting for Ad-Hoc Search](https://dl.acm.org/doi/pdf/10.1145/3366423.3380258) *Dai Zhuyun et.al.* WWW 2020. [[code](https://github.com/AdeDZY/DeepCT/tree/master/HDCT)] (**HDCT**)
 - [Document Expansion by Query Prediction.](https://arxiv.org/pdf/1904.08375.pdf) *Rodrigo Nogueira et.al.* [[doc2query code](https://github.com/nyu-dl/dl4ir-doc2query),[docTTTTTquery code](https://github.com/castorini/docTTTTTquery)] (**doc2query, docTTTTTquery**)
@@ -48,12 +48,15 @@ For people who want to acquire some basic&advanced knowledge about neural models
 
 ### Passage retrieval in open domain question answering
 - [Latent Retrieval for Weakly Supervised Open Domain Question Answering.](https://arxiv.org/pdf/1906.00300.pdf) *Kenton Lee et.al.* ACL 2019. [[code](https://github.com/google-research/language/blob/master/language/orqa/README.md)] (**ORQA, ICT**)
+- [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index.](https://arxiv.org/pdf/1906.05807.pdf) *Minjoon Seo,Jinhyuk Lee et.al.* ACL 2019 [[code](https://github.com/uwnlp/denspi)] (**DENSPI**)
 - [REALM: Retrieval-Augmented Language Model Pre-Training.](https://arxiv.org/pdf/2002.08909.pdf) *Kelvin Guu, Kenton Lee et.al.* ICML 2020. [[code](https://github.com/google-research/language/blob/master/language/realm/README.md)] (**REALM**)
 - [Pre-training tasks for embedding-based large scale retrieva.](https://arxiv.org/pdf/2002.03932.pdf) *Wei-Cheng Chang et.al.* ICLR 2020. (**ICT, BFS and WLP**)
 - [Dense Passage Retrieval for Open-Domain Question Answering.](https://arxiv.org/pdf/2004.04906.pdf) *Vladimir Karpukhin,Barlas Oguz et.al.* EMNLP 2020 [[code](https://github.com/facebookresearch/DPR)] (**DPR**)
+- [Contextualized Sparse Representations for Real-Time Open-Domain Question Answering.](https://arxiv.org/pdf/1911.02896.pdf) *Jinhyuk Lee, Minjoon Seo et.al.* ACL 2020 [[code](https://github.com/jhyuklee/sparc)] (**SPARC, sparse vectors**)
 - [RocketQA: An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering.](https://arxiv.org/pdf/2010.08191.pdf) *Yingqi Qu et.al.*  (**RocketQA**)
 - [DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding.](https://arxiv.org/pdf/2002.12591.pdf) *Zhang Yuyu, Nie Ping et.al.* SIGIR 2020 short. (**DC-BERT**)
-- [Distilling Knowledge from Reader to Retriever for Question Answering](https://arxiv.org/pdf/2012.04584.pdf) *Gautier Izacard1 et.al.* ICLR 2021.
+- [Distilling Knowledge from Reader to Retriever for Question Answering.](https://arxiv.org/pdf/2012.04584.pdf) *Gautier Izacard1 et.al.* ICLR 2021.
+- [Learning Dense Representations of Phrases at Scale.](https://arxiv.org/pdf/2012.04584.pdf) *Jinhyuk Lee, Danqi Chen et.al.* ArxiV 2021 [[code](https://github.com/jhyuklee/DensePhrases)] (**DensePhrases**)
 
 ## Re-ranking Stage
 - [Applying pre-trained models to IR task](#applying-pre-trained-models-to-IR-task)
