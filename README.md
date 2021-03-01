@@ -23,11 +23,11 @@ For people who want to acquire some basic&advanced knowledge about neural models
 
  
 ## Survey Paper
-### Pre-trained models
+**Pre-trained models**
 - [Pre-trained Models for Natural Language Processing: A Survey.](https://arxiv.org/abs/2003.08271) *Xipeng Qiu et.al.* 
 
 
-### Pre-trained models for information retrieval 
+**Pre-trained models for information retrieval**
 - [Pretrained Transformers for Text Ranking: BERT and Beyond.](https://arxiv.org/abs/2010.06467) *Jimmy Lin et.al.*
 
 
@@ -59,11 +59,11 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Learning Dense Representations of Phrases at Scale.](https://arxiv.org/pdf/2012.04584.pdf) *Jinhyuk Lee, Danqi Chen et.al.* ArxiV 2021. [[code](https://github.com/jhyuklee/DensePhrases)] (**DensePhrases**)
 
 ## Re-ranking Stage
-- [Applying pre-trained models to IR task](#applying-pre-trained-models-to-IR-task)
-- [Designing new pre-training task](#designing-new-pre-training-task)
-- [Modifying pre-trained model architecture](#modifying-pre-trained-model-architecture)
+- [Directly apply pre-trained models to IR](#directly-apply-pre-trained-models-to-IR)
+- [Design new pre-training task for IR](#design-new-pre-training-task-for-IR)
+- [Modify on top of pre-trained models](#modify-on-top-of-pre-trained-models)
 
-### Applying pre-trained models to IR task
+### Directly apply pre-trained models to IR
 - [Passage Re-ranking with BERT.](https://arxiv.org/pdf/1901.04085.pdf) *Rodrigo Nogueira et.al.* [[code](https://github.com/nyu-dl/dl4marco-bert)] (**monoBERT: Maybe the first work on applying BERT to IR**) 
 - [Multi-Stage Document Ranking with BERT.](https://arxiv.org/pdf/1910.14424.pdf) *Rodrigo Nogueira et.al.* (**duoBERT: pointwise+pairwise**)
 - [Simple Applications of BERT for Ad Hoc Document Retrieval.](https://arxiv.org/pdf/1903.10972.pdf) / [Applying BERT to Document Retrieval with Birch.](https://www.aclweb.org/anthology/D19-3004.pdf) *Wei Yang, Haotian Zhang et.al. / Zeynep Akkalyoncu Yilmaz et.al.* EMNLP 2019 short. [[code](https://github.com/castorini/birch)] (**Birch: Sentence-level**)
@@ -78,9 +78,11 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Cross-lingual Retrieval for Iterative Self-Supervised Training.](https://arxiv.org/pdf/2006.09526.pdf) *Chau Tran et.al.* NIPS 2020. [[code](https://github.com/pytorch/fairseq/tree/master/examples/criss)] (**CRISS**)
 
 
-### Designing new pre-training task
+### Design new pre-training task for IR
 - [PROP: Pre-training with Representative Words Prediction for Ad-hoc Retrieval.](https://arxiv.org/pdf/2010.10137.pdf) *Xinyu Ma et.al.* WSDM 2021. [[code](https://github.com/Albert-Ma/PROP)] (**PROP**)
 
-### Modifying pre-trained model architecture
+### Modify on top of pre-trained models
 - [Local Self-Attention over Long Text for Efficient Document Retrieval.](https://arxiv.org/pdf/2005.04908.pdf) *Sebastian Hofstätter et.al.* SIGIR 2020 short. [[code](https://github.com/sebastian-hofstaetter/transformer-kernel-ranking)] (**TKL:Transformer-Kernel for long text**)
 - [The Cascade Transformer: an Application for Efficient Answer Sentence Selection.](https://arxiv.org/pdf/2005.02534.pdf) *Luca Soldaini et.al.* ACL 2020.[[code](https://github.com/alexa/wqa-cascade-transformers)] (**Cascade Transformer**)
+- [A Linguistic Study on Relevance Modeling in Information Retrieva.](https://arxiv.org/pdf/2103.00956.pdf) *Yixing Fan, Jiafeng Guo et.al.* WWW 2021.(**Prob & Intervention**)
+- [Using Prior Knowledge to Guide BERT’s Attention in Semantic Textual Matching Tasks.](https://arxiv.org/pdf/2102.10934.pdf) *Tingyu Xia et.al.* WWW 2021.(**Text Matching: Guide BERT's Attention**)
