@@ -61,7 +61,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 ## Re-ranking Stage
 - [Directly apply pre-trained models to IR](#directly-apply-pre-trained-models-to-IR)
 - [Design new pre-training task for IR](#design-new-pre-training-task-for-IR)
-- [Modify on top of pre-trained models](#modify-on-top-of-pre-trained-models)
+- [Modify on top of the existing pre-trained models](#modify-on-top-of-the-existing-pre-trained-models)
 
 ### Directly apply pre-trained models to IR
 - [Passage Re-ranking with BERT.](https://arxiv.org/pdf/1901.04085.pdf) *Rodrigo Nogueira et.al.* [[code](https://github.com/nyu-dl/dl4marco-bert)] (**monoBERT: Maybe the first work on applying BERT to IR**) 
@@ -81,8 +81,8 @@ For people who want to acquire some basic&advanced knowledge about neural models
 ### Design new pre-training task for IR
 - [PROP: Pre-training with Representative Words Prediction for Ad-hoc Retrieval.](https://arxiv.org/pdf/2010.10137.pdf) *Xinyu Ma et.al.* WSDM 2021. [[code](https://github.com/Albert-Ma/PROP)] (**PROP**)
 
-### Modify on top of pre-trained models
+### Modify on top of the existing pre-trained models
 - [Local Self-Attention over Long Text for Efficient Document Retrieval.](https://arxiv.org/pdf/2005.04908.pdf) *Sebastian Hofstätter et.al.* SIGIR 2020 short. [[code](https://github.com/sebastian-hofstaetter/transformer-kernel-ranking)] (**TKL:Transformer-Kernel for long text**)
 - [The Cascade Transformer: an Application for Efficient Answer Sentence Selection.](https://arxiv.org/pdf/2005.02534.pdf) *Luca Soldaini et.al.* ACL 2020.[[code](https://github.com/alexa/wqa-cascade-transformers)] (**Cascade Transformer**)
-- [A Linguistic Study on Relevance Modeling in Information Retrieva.](https://arxiv.org/pdf/2103.00956.pdf) *Yixing Fan, Jiafeng Guo et.al.* WWW 2021.(**Prob & Intervention**)
+- [A Linguistic Study on Relevance Modeling in Information Retrieval.](https://arxiv.org/pdf/2103.00956.pdf) *Yixing Fan, Jiafeng Guo et.al.* WWW 2021. (**Prob & Intervention**)
 - [Using Prior Knowledge to Guide BERT’s Attention in Semantic Textual Matching Tasks.](https://arxiv.org/pdf/2102.10934.pdf) *Tingyu Xia et.al.* WWW 2021.[[code](https://github.com/xiatingyu/Bert_sim)] (**Text Matching: Guide BERT's Attention**)
