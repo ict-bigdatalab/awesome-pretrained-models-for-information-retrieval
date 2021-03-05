@@ -16,10 +16,16 @@
 
 - [Survey paper](#survey-paper)
 - [Phase 1: First-stage retrieval](#first-stage-retrieval)
+  - [Document retrieval in traditional ad-hoc retrieval](#document-retrieval-in-traditional-ad-hoc-retrieval)
+  - [Passage retrieval in open domain question answering](#passage-retrieval-in-open-domain-question-answering)
 - [Phase 2: Re-ranking stage](#re-ranking-stage)
+  - [Directly apply pre-trained models to IR](#directly-apply-pre-trained-models-to-IR)
+  - [Design new pre-training task for IR](#design-new-pre-training-task-for-IR)
+  - [Modify on top of the existing pre-trained models](#modify-on-top-of-the-existing-pre-trained-models)
 - [Multimodel Retrieval](#multimodel-retrieval)
 
-<font color=green>*We also include the recent Multimodel Pre-training works whose pre-trained model fine-tuned on the image/text/image-text retrieval tasks in their experiments.*</font>
+
+<span style="color:green">*We also include the recent Multimodel Pre-training works whose pre-trained models fine-tuned on the image/text/image-text retrieval tasks in their experiments.*</span>.
 
 For people who want to acquire some basic&advanced knowledge about neural models for information retrieval and try some neural models by hand, we refer readers to the below awesome NeuIR survey and the text-matching toolkit [MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py):
 - [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al.* Information Processing & Management, 2020.
@@ -102,5 +108,3 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [VinVL: Making Visual Representations Matter in Vision-Language Models.](https://arxiv.org/pdf/2101.00529.pdf) *Pengchuan Zhang, Xiujun Li et.al.* ECCV 2020.  [[code](https://github.com/microsoft/Oscar)] (**VinVL**)
 - [M6-v0: Vision-and-Language Interaction for Multi-modal Pretraining.](https://arxiv.org/pdf/2003.13198.pdf) *Junyang Lin, An Yang et.al.* KDD 2020.  (**M6-v0/InterBERT**)
 - [ERNIE-ViL: Knowledge Enhanced Vision-Language Representations Through Scene Graph.](https://arxiv.org/pdf/2006.16934.pdf) *Fei Yu, Jiji Tang et.al.* Arxiv 2020. [[code](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-vil)]  (**ERNIE-ViL，1st place on the VCR leaderboard**)
-
-
