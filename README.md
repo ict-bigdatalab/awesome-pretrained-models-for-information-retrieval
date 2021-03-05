@@ -25,10 +25,10 @@
 - [Multimodel Retrieval](#multimodel-retrieval)
 
 
-<span style="color:green">*We also include the recent Multimodel Pre-training works whose pre-trained models fine-tuned on the image/text/image-text retrieval tasks in their experiments.*</span>.
+*We also include the recent Multimodel Pre-training works whose pre-trained models fine-tuned on the image/text/image-text retrieval tasks in their experiments.*
 
 For people who want to acquire some basic&advanced knowledge about neural models for information retrieval and try some neural models by hand, we refer readers to the below awesome NeuIR survey and the text-matching toolkit [MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py):
-- [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al.* Information Processing & Management, 2020.
+- [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al.*
 
  
 ## Survey Paper
