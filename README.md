@@ -15,11 +15,9 @@
 
 - [Survey paper](#survey-paper)
 - [Phase 1: First-stage retrieval](#first-stage-retrieval)
-  - [Neural Term Weighting Framework](#neural-term-weighting-framework)
+  - [Neural term weighting framework](#neural-term-weighting-framework)
   - [Design new pre-training tasks for retrieval](#design-new-pre-training-tasks-for-retrieval)
-  - [Decouple the encoding of query and document](decouple-the-encoding-of-query-and-document)
-    <!-- - [Document retrieval in traditional ad-hoc retrieval](#document-retrieval-in-traditional-ad-hoc-retrieval) -->
-    <!-- - [Passage retrieval in open domain question answering](#passage-retrieval-in-open-domain-question-answering) -->
+  - [Decouple the encoding of query and document](#decouple-the-encoding-of-query-and-document)
 - [Phase 2: Re-ranking stage](#re-ranking-stage)
   - [Directly apply pre-trained models to IR](#directly-apply-pre-trained-models-to-IR)
   - [Design new pre-training tasks for reranking](#design-new-pre-training-tasks-for-reranking)
@@ -48,7 +46,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Passage retrieval in open domain question answering](#passage-retrieval-in-open-domain-question-answering)
 
 
-### Neural Term Weighting Framework
+### Neural term weighting framework
 - [Context-Aware Term Weighting For First Stage Passage Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3397271.3401204) *Zhuyun Dai et.al.* SIGIR 2020 short. [[code](https://github.com/AdeDZY/DeepCT)] (**DeepCT**)
 - [Context-Aware Document Term Weighting for Ad-Hoc Search](https://dl.acm.org/doi/pdf/10.1145/3366423.3380258) *Zhuyun Dai et.al.* WWW 2020. [[code](https://github.com/AdeDZY/DeepCT/tree/master/HDCT)] (**HDCT**)
 - [Document Expansion by Query Prediction.](https://arxiv.org/pdf/1904.08375.pdf) *Rodrigo Nogueira et.al.* [[doc2query code](https://github.com/nyu-dl/dl4ir-doc2query),[docTTTTTquery code](https://github.com/castorini/docTTTTTquery)] (**doc2query, docTTTTTquery**)
@@ -71,16 +69,14 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [RepBERT: Contextualized Text Embeddings for First-Stage Retrieval.](https://arxiv.org/pdf/2006.15498.pdf) *Jingtao Zhan et.al.* [[code](https://github.com/jingtaozhan/RepBERT-Index)] (**RepBERT**)
 - [RocketQA: An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering.](https://arxiv.org/pdf/2010.08191.pdf) *Yingqi Qu et.al.*  (**RocketQA**)
 
-
 **In open domain question answering**
-
 - [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index.](https://arxiv.org/pdf/1906.05807.pdf) *Minjoon Seo,Jinhyuk Lee et.al.* ACL 2019. [[code](https://github.com/uwnlp/denspi)] (**DENSPI**)
 - [Dense Passage Retrieval for Open-Domain Question Answering.](https://arxiv.org/pdf/2004.04906.pdf) *Vladimir Karpukhin,Barlas Oguz et.al.* EMNLP 2020 [[code](https://github.com/facebookresearch/DPR)] (**DPR**)
 - [Contextualized Sparse Representations for Real-Time Open-Domain Question Answering.](https://arxiv.org/pdf/1911.02896.pdf) *Jinhyuk Lee, Minjoon Seo et.al.* ACL 2020. [[code](https://github.com/jhyuklee/sparc)] (**SPARC, sparse vectors**)
-
 - [DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding.](https://arxiv.org/pdf/2002.12591.pdf) *Yuyu Zhang, Ping Nie et.al.* SIGIR 2020 short. (**DC-BERT**)
 - [Distilling Knowledge from Reader to Retriever for Question Answering.](https://arxiv.org/pdf/2012.04584.pdf) *Gautier Izacard1 et.al.* ICLR 2021.
 - [Learning Dense Representations of Phrases at Scale.](https://arxiv.org/pdf/2012.04584.pdf) *Jinhyuk Lee, Danqi Chen et.al.* ArxiV 2021. [[code](https://github.com/jhyuklee/DensePhrases)] (**DensePhrases**)
+
 
 ## Re-ranking Stage
 - [Directly apply pre-trained models to IR](#directly-apply-pre-trained-models-to-IR)
