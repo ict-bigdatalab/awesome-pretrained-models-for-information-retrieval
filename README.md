@@ -41,7 +41,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 
 
 ## First Stage Retrieval
-- [Neural Term Weighting Framework](#neural-term-weighting-framework)
+- [Neural term weighting framework](#neural-term-weighting-framework)
 - [Design new pre-training tasks for retrieval](#design-new-pre-training-tasks-for-retrieval)
 - [Decouple the encoding of query and document](#decouple-the-encoding-of-query-and-document)
 
