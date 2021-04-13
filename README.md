@@ -22,7 +22,7 @@
   - [Directly apply pre-trained models to IR](#directly-apply-pre-trained-models-to-IR)
   - [Design new pre-training tasks for reranking](#design-new-pre-training-tasks-for-reranking)
   - [Modify on top of the existing pre-trained models](#modify-on-top-of-the-existing-pre-trained-models)
-- [Multimodel Retrieval](#multimodel-retrieval)
+- [Multimodal Retrieval](#multimodal-retrieval)
   - [Unified Single-stream Architecture](#unified-single-stream-architecture)
   - [Multi-stream Architecture Applied on Input](#multi-stream-architecture-applied-on-Input)
 - [Other Resources](#other-resources)
@@ -34,13 +34,8 @@ For people who want to acquire some basic&advanced knowledge about neural models
 
  
 ## Survey Paper
-**Pre-trained models**
-- [Pre-trained Models for Natural Language Processing: A Survey.](https://arxiv.org/abs/2003.08271) *Xipeng Qiu et.al.* 
-
-
-**Pre-trained models for information retrieval**
 - [Pretrained Transformers for Text Ranking: BERT and Beyond.](https://arxiv.org/abs/2010.06467) *Jimmy Lin et.al.*
-
+- [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) *Yinqiong Cai, Yixing Fan, Jiafeng Guo et.al.*
 
 ## First Stage Retrieval
 - [Neural term weighting framework](#neural-term-weighting-framework)
@@ -114,7 +109,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Using Prior Knowledge to Guide BERT’s Attention in Semantic Textual Matching Tasks.](https://arxiv.org/pdf/2102.10934.pdf) *Tingyu Xia et.al.* WWW 2021.[[code](https://github.com/xiatingyu/Bert_sim)] (**Text Matching: Guide BERT's Attention**)
 
 
-## Multimodel Retrieval
+## Multimodal Retrieval
 
 ### Unified Single-stream Architecture
 - [Unicoder-VL: A Universal Encoder for Vision and Language by Cross-modal Pre-training.](https://arxiv.org/pdf/1908.06066.pdf) *Gen Li, Nan Duan et.al.* AAAI 2020.  [[code](https://github.com/microsoft/Unicoder)] (**Unicoder-VL**)
@@ -127,7 +122,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 ### Multi-stream Architecture Applied on Input
 - [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks.](https://arxiv.org/pdf/1908.02265.pdf) *Jiasen Lu, Dhruv Batra et.al.* NeurIPS 2019.  [[code](https://github.com/facebookresearch/vilbert-multi-task)] (**VilBERT**)
 - [12-in-1: Multi-Task Vision and Language Representation Learning.](https://arxiv.org/pdf/1912.02315.pdf) *Jiasen Lu, Dhruv Batra et.al.* CVPR 2020.  [[code](https://github.com/facebookresearch/vilbert-multi-task)] (**A multi-task model based on VilBERT**)
-- [Learning Transferable Visual Models From Natural Language Supervision.](https://arxiv.org/pdf/1912.02315.pdf) *Alec Radford et.al.* CVPR 2020.  [[code](https://github.com/OpenAI/CLIP)] (**CLIP, GPT team**)
+- [Learning Transferable Visual Models From Natural Language Supervision.](https://arxiv.org/pdf/2103.00020.pdf) *Alec Radford et.al.* CVPR 2020.  [[code](https://github.com/OpenAI/CLIP)] (**CLIP, GPT team**)
 - [ERNIE-ViL: Knowledge Enhanced Vision-Language Representations Through Scene Graph.](https://arxiv.org/pdf/2006.16934.pdf) *Fei Yu, Jiji Tang et.al.* Arxiv 2020. [[code](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-vil)]  (**ERNIE-ViL，1st place on the VCR leaderboard**)
 - [M6-v0: Vision-and-Language Interaction for Multi-modal Pretraining.](https://arxiv.org/pdf/2003.13198.pdf) *Junyang Lin, An Yang et.al.* KDD 2020.  (**M6-v0/InterBERT**)
 - [M3P: Learning Universal Representations via Multitask Multilingual Multimodal Pre-training.](https://arxiv.org/pdf/2006.02635.pdf) *Haoyang Huang, Lin Su et.al.* CVPR 2021. [[code](https://github.com/microsoft/M3P)]  (**M3P, MILD dataset**)
@@ -135,5 +130,10 @@ For people who want to acquire some basic&advanced knowledge about neural models
 
 ## Other Resources
 
-### Other Surveys About Efficient Transformers
+### Other Resources About Pre-trained Models in NLP
+- [Pre-trained Models for Natural Language Processing: A Survey.](https://arxiv.org/abs/2003.08271) *Xipeng Qiu et.al.* 
+- [BERT-related-papers](https://github.com/tomohideshibata/BERT-related-papers)
+- [Pre-trained Languge Model Papers from THU-NLP](https://github.com/thunlp/PLMpapers)
+
+### Surveys About Efficient Transformers
 - [Efficient Transformers: A Survey.](https://arxiv.org/pdf/2009.06732.pdf) *Yi Tay, Mostafa Dehghani et.al.* Arxiv 2020. 
