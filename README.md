@@ -35,7 +35,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
  
 ## Survey Paper
 - [Pretrained Transformers for Text Ranking: BERT and Beyond.](https://arxiv.org/abs/2010.06467) *Jimmy Lin et.al.*
-- [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) *Yinqiong Cai, Yixing Fan, Jiafeng Guo et.al.*
+- [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) *Yinqiong Cai, Yixing Fan et.al.*
 
 ## First Stage Retrieval
 - [Neural term weighting framework](#neural-term-weighting-framework)
