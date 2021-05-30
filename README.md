@@ -30,7 +30,7 @@
     - [Straightforward applications](#straightforward-applications)
     - [Process long documents](#process-long-documents)
     - [Utilize generative pre-trained models](#utilize-generative-pre-trained-models)
-    - [Training and query expansion](#training-and-query-expansion)
+    - [Efficient Training and query expansion](#efficient-training-and-query-expansion)
   - [Weak supervision and pre-training for reranking](#weak-supervision-and-pre-training-for-reranking)
   - [Model acceleration](#model-acceleration)
   - [Cross-lingual retrieval](#cross-lingual-retrieval)
