@@ -7,11 +7,11 @@
 
 # awesome-pretrained-models-for-information-retrieval 
 
-> A curated list of awesome papers related to pre-trained models for information retrieval. Any feedback and contribution are welcome!
+> A curated list of awesome papers related to pre-trained models for information retrieval (abbreviated to **pretraining for IR**). Any feedback and contribution are welcome!
 
 
 
-## Table of Contents
+## Pretraining for IR
 
 - [Survey paper](#survey-paper)
 - [Phase 1: First-stage retrieval](#first-stage-retrieval)
@@ -32,12 +32,14 @@
     - [Utilize generative pre-trained models](#utilize-generative-pre-trained-models)
     - [Training and query expansion](#training-and-query-expansion)
   - [Weak supervision and pre-training for reranking](#weak-supervision-and-pre-training-for-reranking)
-  - [Model compression and acceleration](#model-compression-and-acceleration)
+  - [Model acceleration](#model-acceleration)
   - [Cross-lingual retrieval](#cross-lingual-retrieval)
+
 
 - [Multimodal Retrieval](#multimodal-retrieval)
   - [Unified single-stream architecture](#unified-single-stream-architecture)
   - [Multi-stream architecture applied on input](#multi-stream-architecture-applied-on-input)
+
 
 - [Other Resources](#other-resources)
 
@@ -116,6 +118,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Deeper Text Understanding for IR with Contextual Neural Language Modeling.](https://arxiv.org/pdf/1905.09217.pdf) *Zhuyun Dai et.al.* SIGIR 2020 short. [[code](https://github.com/AdeDZY/SIGIR19-BERT-IR)] (**BERT-MaxP, BERT-firstP, BERT-sumP: Passage-level**)
 - [Simple Applications of BERT for Ad Hoc Document Retrieval,](https://arxiv.org/pdf/1903.10972.pdf) [Applying BERT to Document Retrieval with Birch,](https://www.aclweb.org/anthology/D19-3004.pdf) [Cross-Domain Modeling of Sentence-Level Evidence for Document Retrieval.](https://www.aclweb.org/anthology/D19-1352.pdf) *Wei Yang, Haotian Zhang et.al.* Arxiv 2020, *Zeynep Akkalyoncu Yilmaz et.al.* EMNLP 2019 short. [[code](https://github.com/castorini/birch)] (**Birch: Sentence-level**)
 - [Leveraging Passage-level Cumulative Gain for Document Ranking.](https://dl.acm.org/doi/pdf/10.1145/3366423.3380305) *Zhijing Wu et.al.* WWW 2020. (**PCGM**)
+- [Intra-Document Cascading: Learning to Select Passages for Neural Document Ranking.](https://arxiv.org/pdf/2105.09816.pdf) *Sebastian Hofstätter et.al.* SIGIR 2021. [[code](https://github.com/sebastian-hofstaetter/intra-document-cascade)] (**Distill a ranking model to conv-knrm to select top-k passages**)
 
 
 #### Utilize generative pre-trained models
@@ -123,9 +126,10 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Document Ranking with a Pretrained Sequence-to-Sequence Model.](https://arxiv.org/pdf/2003.06713.pdf) *Rodrigo Nogueira, Zhiying Jiang et.al.* EMNLP 2020. [[code](https://github.com/castorini/pygaggle/)] (**using T5**)
 - [Generalizing Discriminative Retrieval Models using Generative Tasks.]() *Bingsheng Liu, Hamed Zamani et.al.* WWW 2021. (**GDMTL,joint discriminative and generative model with multitask learning**)
 
-#### Training and query expansion 
+#### Efficient Training and query expansion 
 - [Training Curricula for Open Domain Answer Re-Ranking.](https://arxiv.org/pdf/2004.14269.pdf) *Sean MacAvaney et.al.* SIGIR 2020. [[code](https://github.com/Georgetown-IR-Lab/curricula-neural-ir)] (**curriculum learning based on BM25**)
 - [BERT-QE: Contextualized Query Expansion for Document Re-ranking.](https://arxiv.org/pdf/2009.07258.pdf) *Zhi Zheng et.al.* EMNLP 2020 Findings. [[code](https://github.com/zh-zheng/BERT-QE)] (**BERT-QE**)
+- [Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models.](https://arxiv.org/pdf/2105.04651.pdf) *Daniel Cohen et.al.* SIGIR 2021.
 
 
 ### Weak supervision and pre-training for reranking
@@ -133,9 +137,10 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [PROP: Pre-training with Representative Words Prediction for Ad-hoc Retrieval.](https://arxiv.org/pdf/2010.10137.pdf) *Xinyu Ma et.al.* WSDM 2021. [[code](https://github.com/Albert-Ma/PROP)] (**PROP**)
 - [Cross-lingual Language Model Pretraining for Retrieval.]() *Puxuan Yu et.al.* WWW 2021. 
 - [B-PROP: Bootstrapped Pre-training with Representative Words Prediction for Ad-hoc Retrieval.](https://arxiv.org/pdf/2104.09791.pdf) *Xinyu Ma et.al.* SIGIR 2021. [[code](https://github.com/Albert-Ma/PROP)] (**B-PROP**)
+- [Pre-trained Language Model based Ranking in Baidu Search.](https://arxiv.org/pdf/2105.11108.pdf) *Lixin Zou et.al.* KDD 2021.
 
 
-### Model compression and acceleration
+### Model acceleration
 - [Local Self-Attention over Long Text for Efficient Document Retrieval.](https://arxiv.org/pdf/2005.04908.pdf) *Sebastian Hofstätter et.al.* SIGIR 2020 short. [[code](https://github.com/sebastian-hofstaetter/transformer-kernel-ranking)] (**TKL:Transformer-Kernel for long text**)
 - [The Cascade Transformer: an Application for Efficient Answer Sentence Selection.](https://arxiv.org/pdf/2005.02534.pdf) *Luca Soldaini et.al.* ACL 2020.[[code](https://github.com/alexa/wqa-cascade-transformers)] (**Cascade Transformer: prune candidates by layer**)
 - [Early Exiting BERT for Efficient Document Ranking.](https://www.aclweb.org/anthology/2020.sustainlp-1.11.pdf) *Ji Xin et.al.* EMNLP 2020 SustaiNLP Workshop. [[code](https://github.com/castorini/earlyexiting-monobert)] (**Early exit**)
