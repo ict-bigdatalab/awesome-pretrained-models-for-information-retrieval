@@ -7,7 +7,7 @@
 
 # awesome-pretrained-models-for-information-retrieval 
 
-> A curated list of awesome papers related to pre-trained models for information retrieval (abbreviated to **pretraining for IR**). Any feedback and contribution are welcome!
+> A curated list of awesome papers related to pre-trained models for information retrieval (a.k.a., **pretraining for IR**). Any feedback and contribution are welcome!
 
 
 
@@ -137,7 +137,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [MarkedBERT: Integrating Traditional IR Cues in Pre-trained Language Models for Passage Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3397271.3401194) *Lila Boualili et.al.* SIGIR 2020 short. [[code](https://github.com/BOUALILILila/markers_bert)] (**MarkedBERT**)
 - [Selective Weak Supervision for Neural Information Retrieval.](https://arxiv.org/pdf/2001.10382.pdf) *Kaitao Zhang et.al.* WWW 2020. [[code](https://github.com/thunlp/ReInfoSelect)] (**ReInfoSelect**)
 - [PROP: Pre-training with Representative Words Prediction for Ad-hoc Retrieval.](https://arxiv.org/pdf/2010.10137.pdf) *Xinyu Ma et.al.* WSDM 2021. [[code](https://github.com/Albert-Ma/PROP)] (**PROP**)
-- [Cross-lingual Language Model Pretraining for Retrieval.]() *Puxuan Yu et.al.* WWW 2021. 
+- [Cross-lingual Language Model Pretraining for Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3442381.3449830) *Puxuan Yu et.al.* WWW 2021. 
 - [B-PROP: Bootstrapped Pre-training with Representative Words Prediction for Ad-hoc Retrieval.](https://arxiv.org/pdf/2104.09791.pdf) *Xinyu Ma et.al.* SIGIR 2021. [[code](https://github.com/Albert-Ma/PROP)] (**B-PROP**)
 - [Pre-trained Language Model based Ranking in Baidu Search.](https://arxiv.org/pdf/2105.11108.pdf) *Lixin Zou et.al.* KDD 2021.
 
