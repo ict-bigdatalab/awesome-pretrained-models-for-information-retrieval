@@ -65,7 +65,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 
 ### Document expansion for Sparse representation
 - [Document Expansion by Query Prediction.](https://arxiv.org/pdf/1904.08375.pdf) *Rodrigo Nogueira et.al.* [[doc2query code](https://github.com/nyu-dl/dl4ir-doc2query),[docTTTTTquery code](https://github.com/castorini/docTTTTTquery)] (**doc2query, docTTTTTquery**)
-- [SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval.](https://arxiv.org/pdf/2010.00768.pdf) *Yang Bai, Xiaoguang Li et.al.* Arxiv 2020. (**Term importance distribution from MLM+Binary Term Gating**)
+- [SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval.](https://arxiv.org/pdf/2010.00768.pdf) *Yang Bai, Xiaoguang Li et.al.* Arxiv 2020. (**SparTerm: Term importance distribution from MLM+Binary Term Gating**)
 
 
 ### Decouple the dense representation encoding of query and document
@@ -129,7 +129,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 #### Utilize generative pre-trained models
 - [Beyond [CLS] through Ranking by Generation.](https://arxiv.org/pdf/2010.03073.pdf) *Cicero Nogueira dos Santos et.al.* EMNLP 2020 short. (**query likelihood computed by GPT**)
 - [Document Ranking with a Pretrained Sequence-to-Sequence Model.](https://arxiv.org/pdf/2003.06713.pdf) *Rodrigo Nogueira, Zhiying Jiang et.al.* EMNLP 2020. [[code](https://github.com/castorini/pygaggle/)] (**using T5**)
-- [Generalizing Discriminative Retrieval Models using Generative Tasks.]() *Bingsheng Liu, Hamed Zamani et.al.* WWW 2021. (**GDMTL,joint discriminative and generative model with multitask learning**)
+- [Generalizing Discriminative Retrieval Models using Generative Tasks.](https://ciir-publications.cs.umass.edu/pub/web/getpdf.php?id=1414) *Bingsheng Liu, Hamed Zamani et.al.* WWW 2021. (**GDMTL,joint discriminative and generative model with multitask learning**)
 
 #### Efficient Training and query expansion 
 - [Training Curricula for Open Domain Answer Re-Ranking.](https://arxiv.org/pdf/2004.14269.pdf) *Sean MacAvaney et.al.* SIGIR 2020. [[code](https://github.com/Georgetown-IR-Lab/curricula-neural-ir)] (**curriculum learning based on BM25**)
@@ -144,7 +144,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Cross-lingual Language Model Pretraining for Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3442381.3449830) *Puxuan Yu et.al.* WWW 2021. 
 - [B-PROP: Bootstrapped Pre-training with Representative Words Prediction for Ad-hoc Retrieval.](https://arxiv.org/pdf/2104.09791.pdf) *Xinyu Ma et.al.* SIGIR 2021. [[code](https://github.com/Albert-Ma/PROP)] (**B-PROP**)
 - [Pre-trained Language Model based Ranking in Baidu Search.](https://arxiv.org/pdf/2105.11108.pdf) *Lixin Zou et.al.* KDD 2021.
-
+- [A Unified Pretraining Framework for Passage Ranking and Expansion.](https://ojs.aaai.org/index.php/AAAI/article/view/16584) *Ming Yan et.al.* AAAI 2021. (**UED, jointly training ranking and query generation**)
 
 ### Model acceleration
 - [Local Self-Attention over Long Text for Efficient Document Retrieval.](https://arxiv.org/pdf/2005.04908.pdf) *Sebastian Hofstätter et.al.* SIGIR 2020 short. [[code](https://github.com/sebastian-hofstaetter/transformer-kernel-ranking)] (**TKL:Transformer-Kernel for long text**)
