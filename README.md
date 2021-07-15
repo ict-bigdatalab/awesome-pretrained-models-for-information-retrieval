@@ -62,7 +62,6 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Learning Passage Impacts for Inverted Indexes.](https://arxiv.org/pdf/2104.12016.pdf) *Antonio Mallia et.al.* SIGIR 2021 short. [[code](https://github.com/DI4IR/SIGIR2021)] (**DeepImapct**)
 
 
-
 ### Document expansion for Sparse representation
 - [Document Expansion by Query Prediction.](https://arxiv.org/pdf/1904.08375.pdf) *Rodrigo Nogueira et.al.* [[doc2query code](https://github.com/nyu-dl/dl4ir-doc2query),[docTTTTTquery code](https://github.com/castorini/docTTTTTquery)] (**doc2query, docTTTTTquery**)
 - [SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval.](https://arxiv.org/pdf/2010.00768.pdf) *Yang Bai, Xiaoguang Li et.al.* Arxiv 2020. (**SparTerm: Term importance distribution from MLM+Binary Term Gating**)
@@ -152,6 +151,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Early Exiting BERT for Efficient Document Ranking.](https://www.aclweb.org/anthology/2020.sustainlp-1.11.pdf) *Ji Xin et.al.* EMNLP 2020 SustaiNLP Workshop. [[code](https://github.com/castorini/earlyexiting-monobert)] (**Early exit**)
 - [Understanding BERT Rankers Under Distillation.](https://arxiv.org/pdf/2007.11088.pdf) *Luyu Gao et.al.* ICTIR 2020. (**LM Distill + Ranker Distill**)
 - [Simplified TinyBERT: Knowledge Distillation for Document Retrieval.](https://arxiv.org/pdf/2009.07531.pdf) *Xuanang Chen et.al.* ECIR 2021. [[code](https://github.com/cxa-unique/Simplified-TinyBERT)] (**TinyBERT+knowledge distillation**)
+- [TILDE: Term Independent Likelihood moDEl for Passage Re-ranking.](https://dl.acm.org/doi/pdf/10.1145/3404835.3462922) *Shengyao Zhuang, Guido Zuccon* SIGIR 2021. [[code](https://github.com/ielab/TILDE)] (**TILDE**)
 
 
 ### Cross-lingual retrieval
