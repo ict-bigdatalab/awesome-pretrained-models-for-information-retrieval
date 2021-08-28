@@ -142,6 +142,8 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [PROP: Pre-training with Representative Words Prediction for Ad-hoc Retrieval.](https://arxiv.org/pdf/2010.10137.pdf) *Xinyu Ma et.al.* WSDM 2021. [[code](https://github.com/Albert-Ma/PROP)] (**PROP**)
 - [Cross-lingual Language Model Pretraining for Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3442381.3449830) *Puxuan Yu et.al.* WWW 2021. 
 - [B-PROP: Bootstrapped Pre-training with Representative Words Prediction for Ad-hoc Retrieval.](https://arxiv.org/pdf/2104.09791.pdf) *Xinyu Ma et.al.* SIGIR 2021. [[code](https://github.com/Albert-Ma/PROP)] (**B-PROP**)
+- [Pre-training for Ad-hoc Retrieval: Hyperlink is Also You Need.](https://arxiv.org/pdf/2108.09346.pdf) *Zhengyi Ma et.al.* CIKM 2021. [[code](https://github.com/zhengyima/Anchors)] (**HARP**)
+- [Contrastive Learning of User Behavior Sequence for Context-Aware Document Ranking.](https://arxiv.org/pdf/2108.10510.pdf) *Yutao Zhu et.al.* CIKM 2021. [[code](https://github.com/DaoD/COCA)](**COCA**)
 - [Pre-trained Language Model based Ranking in Baidu Search.](https://arxiv.org/pdf/2105.11108.pdf) *Lixin Zou et.al.* KDD 2021.
 - [A Unified Pretraining Framework for Passage Ranking and Expansion.](https://ojs.aaai.org/index.php/AAAI/article/view/16584) *Ming Yan et.al.* AAAI 2021. (**UED, jointly training ranking and query generation**)
 
@@ -167,7 +169,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [UNITER: UNiversal Image-TExt Representation Learning.](https://arxiv.org/pdf/1909.11740.pdf) *Yen-Chun Chen, Linjie Li et.al.* ECCV 2020.  [[code](https://github.com/ChenRocks/UNITER)] (**UNITER**)
 - [Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks.](https://arxiv.org/pdf/2004.06165.pdf) *Xiujun Li, Xi Yin et.al.* ECCV 2020.  [[code](https://github.com/microsoft/Oscar)] (**Oscar**)
 - [VinVL: Making Visual Representations Matter in Vision-Language Models.](https://arxiv.org/pdf/2101.00529.pdf) *Pengchuan Zhang, Xiujun Li et.al.* ECCV 2020.  [[code](https://github.com/microsoft/Oscar)] (**VinVL**)
-
+- [Dynamic Modality Interaction Modeling for Image-Text Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3404835.3462829) *Leigang Qu et.al.* SIGIR 2021 **Best student paper**. [[code](https://sigir21.wixsite.com/dime)] (**DIME**)
 
 ### Multi-stream Architecture Applied on Input
 - [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks.](https://arxiv.org/pdf/1908.02265.pdf) *Jiasen Lu, Dhruv Batra et.al.* NeurIPS 2019.  [[code](https://github.com/facebookresearch/vilbert-multi-task)] (**VilBERT**)
