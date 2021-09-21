@@ -22,7 +22,7 @@
     - [Negative sampling](#negative-sampling)
     - [Knowledge distillation](#knowledge-distillation)
     - [Design pre-training tasks](#design-pre-training-tasks)
-    - [Joint learning retrieval and index](#joint-learning-retrieval-and-index)
+    - [Joint learn retrieval and index](#joint-learn-retrieval-and-index)
     - [Dense retrieval in open domain QA](#dense-retrieval-in-open-domain-QA)
 
 
@@ -99,7 +99,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [REALM: Retrieval-Augmented Language Model Pre-Training.](https://arxiv.org/pdf/2002.08909.pdf) *Kelvin Guu, Kenton Lee et.al.* ICML 2020. [[code](https://github.com/google-research/language/blob/master/language/realm/README.md)] (**REALM**)
 
 
-### Joint learning retrieval and index
+### Joint learn retrieval and index
 - [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index.](https://arxiv.org/pdf/2105.03933.pdf) *Han Zhang et.al.* SIGIR 2021 short. [[code](https://github.com/jdcomsearch/poeem)] (**Poeem**)
 - [Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance.](https://arxiv.org/pdf/2108.00644.pdf) *Jingtao Zhan et.al.* CIKM 2021. [[code](https://github.com/jingtaozhan/JPQ)] (**JPQ**)
 - [Efficient Passage Retrieval with Hashing for Open-domain Question Answering.](https://arxiv.org/pdf/2106.00882.pdf) *Ikuya Yamada et.al.* ACL 2021. [[code](https://github.com/studio-ousia/bpr)] (**BPR, convert embedding vector to binary codes**)
