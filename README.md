@@ -21,8 +21,8 @@
     - [Late interaction](#late-interaction)
     - [Negative sampling](#negative-sampling)
     - [Knowledge distillation](#knowledge-distillation)
-    - [Design pre-training tasks](#design-pre-training-tasks)
     - [Joint learn retrieval and index](#joint-learn-retrieval-and-index)
+    - [Pre-training for dense retrieval](#pre-training-for-dense-retrieval)
     - [Dense retrieval in open domain QA](#dense-retrieval-in-open-domain-QA)
 
 
@@ -95,17 +95,21 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling.](https://arxiv.org/pdf/2104.06967.pdf) *Sebastian Hofstätter et.al.* SIGIR 2021.[[code](https://github.com/sebastian-hofstaetter/tas-balanced-dense-retrieval)] (**TAS-Balanced, sample from query cluster and distill from BERT ensemble**)
 - [RocketQAv2: A Joint Training Method for Dense Passage Retrieval and Passage Re-ranking.](https://arxiv.org/pdf/2110.07367.pdf) *Ruiyang Ren, Yingqi Qu et.al.* EMNLP 2021. [[code](https://github.com/PaddlePaddle/RocketQA)] (**RocketQAv2, joint learning by distillation**)
 
-#### Design pre-training tasks
-- [Latent Retrieval for Weakly Supervised Open Domain Question Answering.](https://arxiv.org/pdf/1906.00300.pdf) *Kenton Lee et.al.* ACL 2019. [[code](https://github.com/google-research/language/blob/master/language/orqa/README.md)] (**ORQA, ICT**)
-- [Pre-training tasks for embedding-based large scale retrieva.](https://arxiv.org/pdf/2002.03932.pdf) *Wei-Cheng Chang et.al.* ICLR 2020. (**ICT, BFS and WLP**)
-- [REALM: Retrieval-Augmented Language Model Pre-Training.](https://arxiv.org/pdf/2002.08909.pdf) *Kelvin Guu, Kenton Lee et.al.* ICML 2020. [[code](https://github.com/google-research/language/blob/master/language/realm/README.md)] (**REALM**)
-- [Less is More: Pre-train a Strong Text Encoder for Dense Retrieval Using a Weak Decoder.](https://arxiv.org/pdf/2102.09206.pdf) *Shuqi Lu, Di He, Chenyan Xiong et.al.* Arxiv 2021. [[code](https://github.com/microsoft/SEED-Encoder/)] (**Seed**)
 
 ### Joint learn retrieval and index
 - [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index.](https://arxiv.org/pdf/2105.03933.pdf) *Han Zhang et.al.* SIGIR 2021 short. [[code](https://github.com/jdcomsearch/poeem)] (**Poeem**)
 - [Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance.](https://arxiv.org/pdf/2108.00644.pdf) *Jingtao Zhan et.al.* CIKM 2021. [[code](https://github.com/jingtaozhan/JPQ)] (**JPQ**)
 - [Efficient Passage Retrieval with Hashing for Open-domain Question Answering.](https://arxiv.org/pdf/2106.00882.pdf) *Ikuya Yamada et.al.* ACL 2021. [[code](https://github.com/studio-ousia/bpr)] (**BPR, convert embedding vector to binary codes**)
 - [Learning Discrete Representations via Constrained Clustering for Effective and Efficient Dense Retrieval.](https://arxiv.org/pdf/2110.05789.pdf)*Jingtao Zhan et.al.* WSDM 2022. [[code](https://github.com/jingtaozhan/RepCONC)] (**RepCONC**)
+
+
+#### Pre-training for dense retrieval
+- [Latent Retrieval for Weakly Supervised Open Domain Question Answering.](https://arxiv.org/pdf/1906.00300.pdf) *Kenton Lee et.al.* ACL 2019. [[code](https://github.com/google-research/language/blob/master/language/orqa/README.md)] (**ORQA, ICT**)
+- [Pre-training tasks for embedding-based large scale retrieva.](https://arxiv.org/pdf/2002.03932.pdf) *Wei-Cheng Chang et.al.* ICLR 2020. (**ICT, BFS and WLP**)
+- [REALM: Retrieval-Augmented Language Model Pre-Training.](https://arxiv.org/pdf/2002.08909.pdf) *Kelvin Guu, Kenton Lee et.al.* ICML 2020. [[code](https://github.com/google-research/language/blob/master/language/realm/README.md)] (**REALM**)
+- [Less is More: Pre-train a Strong Text Encoder for Dense Retrieval Using a Weak Decoder.](https://arxiv.org/pdf/2102.09206.pdf) *Shuqi Lu, Di He, Chenyan Xiong et.al.* Arxiv 2021. [[code](https://github.com/microsoft/SEED-Encoder/)] (**Seed**)
+- [Condenser: a Pre-training Architecture for Dense Retrieval.](https://arxiv.org/pdf/2104.08253.pdf) *Luyu Gao et.al.* EMNLP 2021. [[code](https://github.com/luyug/Condenser)](**Condenser**)
+
 
 #### Dense retrieval in open domain QA
 - [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index.](https://arxiv.org/pdf/1906.05807.pdf) *Minjoon Seo,Jinhyuk Lee et.al.* ACL 2019. [[code](https://github.com/uwnlp/denspi)] (**DENSPI**)
