@@ -36,7 +36,7 @@
   - [Model acceleration](#model-acceleration)
   - [Cross-lingual retrieval](#cross-lingual-retrieval)
 
-
+- [Model-based IR System](#model-based-ir-system)
 - [Multimodal Retrieval](#multimodal-retrieval)
   - [Unified single-stream architecture](#unified-single-stream-architecture)
   - [Multi-stream architecture applied on input](#multi-stream-architecture-applied-on-input)
@@ -172,6 +172,15 @@ For people who want to acquire some basic&advanced knowledge about neural models
 ### Cross-lingual retrieval
 - [Cross-lingual Retrieval for Iterative Self-Supervised Training.](https://arxiv.org/pdf/2006.09526.pdf) *Chau Tran et.al.* NIPS 2020. [[code](https://github.com/pytorch/fairseq/tree/master/examples/criss)] (**CRISS**)
 - [CLIRMatrix: A massively large collection of bilingual and multilingual datasets for Cross-Lingual Information Retrieval.](https://www.aclweb.org/anthology/2020.emnlp-main.340.pdf) *Shuo Sun et.al.* EMNLP 2020. [[code](https://github.com/ssun32/CLIRMatrix)] (**Multilingual dataset-CLIRMatrix and multilingual BERT**)
+
+
+## Model-based IR System
+- [Rethinking Search: Making Domain Experts out of Dilettantes.](https://arxiv.org/pdf/2105.02274.pdf) *Donald Metzler et.al.* SIGIR Forum 2020. 
+(**Envisioned the model-based IR system**)
+- [Transformer Memory as a Differentiable Search Index.](https://arxiv.org/pdf/2202.06991.pdf) *Yi Tay et.al.* Arxiv 2022. 
+(**DSI**)
+- [DynamicRetriever: A Pre-training Model-based IR System with Neither Sparse nor Dense Index.](https://arxiv.org/pdf/2203.00537.pdf) *Yujia Zhou et.al.* Arxiv 2022. 
+(**DynamicRetriever**)
 
 
 ## Multimodal Retrieval
