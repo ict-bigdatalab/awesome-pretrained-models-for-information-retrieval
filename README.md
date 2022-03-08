@@ -24,7 +24,7 @@
     - [Joint learn retrieval and index](#joint-learn-retrieval-and-index)
     - [Pre-training for dense retrieval](#pre-training-for-dense-retrieval)
     - [Dense retrieval in open domain QA](#dense-retrieval-in-open-domain-qa)
-
+  - [Combine sparse retrieval and dense retrieval](#combine-sparse-retrieval-and-dense-retrieval)
 
 - [Phase 2: Re-ranking stage](#re-ranking-stage)
   - [Pre-trained models for reranking](#pre-trained-models-for-reranking)
@@ -119,6 +119,14 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Learning Dense Representations of Phrases at Scale.](https://arxiv.org/pdf/2012.12624.pdf) *Jinhyuk Lee, Danqi Chen et.al.* ACL 2021. [[code](https://github.com/jhyuklee/DensePhrases)] (**DensePhrases**)
 - [Multi-Task Retrieval for Knowledge-Intensive Tasks.](https://arxiv.org/pdf/2101.00117.pdf) *Jean Maillard, Vladimir Karpukhin^ et.al.*  ACL 2021. (**Multi-task learning**)
 
+
+### Combine sparse retrieval and dense retrieval
+- [Complement Lexical Retrieval Model with Semantic Residual Embeddings.](https://arxiv.org/pdf/2004.13969.pdf) *Luyu Gao et.al.* ECIR 2021.
+- [BERT-based Dense Retrievers Require Interpolation with BM25 for Effective Passage Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3471158.3472233) *Shuai Wang et.al.* ICTIR 2021.
+- [Progressively Optimized Bi-Granular Document Representation for Scalable Embedding Based Retrieval.](https://arxiv.org/pdf/2201.05409.pdf) *Shitao Xiao et.al.* WWW 2022. [[code](https://github.com/microsoft/BiDR)]
+
+
+
 ## Re-ranking Stage
 
 ### Pre-trained models for reranking
@@ -136,7 +144,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Leveraging Passage-level Cumulative Gain for Document Ranking.](https://dl.acm.org/doi/pdf/10.1145/3366423.3380305) *Zhijing Wu et.al.* WWW 2020. (**PCGM**)
 - [PARADE: Passage Representation Aggregation for Document Reranking.](https://arxiv.org/pdf/2008.09093.pdf) *Canjia Li et.al.* Arxiv 2020. [[code](https://github.com/canjiali/PARADE/)] (**An extensive comparison of various Passage Representation Aggregation methods**)
 - [Intra-Document Cascading: Learning to Select Passages for Neural Document Ranking.](https://arxiv.org/pdf/2105.09816.pdf) *Sebastian Hofstätter et.al.* SIGIR 2021. [[code](https://github.com/sebastian-hofstaetter/intra-document-cascade)] (**Distill a ranking model to conv-knrm to select top-k passages**)
-
+- [Socialformer: Social Network Inspired Long Document Modeling for Document Ranking.](https://arxiv.org/pdf/2202.10870.pdf) *Yujia Zhou et.al.* WWW 2022. (**Socialformer**)
 
 #### Utilize generative pre-trained models
 - [Beyond [CLS] through Ranking by Generation.](https://arxiv.org/pdf/2010.03073.pdf) *Cicero Nogueira dos Santos et.al.* EMNLP 2020 short. (**query likelihood computed by GPT**)
@@ -147,6 +155,10 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Training Curricula for Open Domain Answer Re-Ranking.](https://arxiv.org/pdf/2004.14269.pdf) *Sean MacAvaney et.al.* SIGIR 2020. [[code](https://github.com/Georgetown-IR-Lab/curricula-neural-ir)] (**curriculum learning based on BM25**)
 - [BERT-QE: Contextualized Query Expansion for Document Re-ranking.](https://arxiv.org/pdf/2009.07258.pdf) *Zhi Zheng et.al.* EMNLP 2020 Findings. [[code](https://github.com/zh-zheng/BERT-QE)] (**BERT-QE**)
 - [Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models.](https://arxiv.org/pdf/2105.04651.pdf) *Daniel Cohen et.al.* SIGIR 2021.
+- [Semi-Siamese Bi-encoder Neural Ranking Model Using Lightweight Fine-Tuning.](https://arxiv.org/pdf/2110.14943.pdf) *Euna Jung, Jaekeol Choi et.al.* WWW 2022. [[code](https://github.com/xlpczv/Semi_Siamese)] (**Lightweight Fine-Tuning**)
+
+
+
 
 
 ### Weak supervision and pre-training for reranking
@@ -167,6 +179,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Understanding BERT Rankers Under Distillation.](https://arxiv.org/pdf/2007.11088.pdf) *Luyu Gao et.al.* ICTIR 2020. (**LM Distill + Ranker Distill**)
 - [Simplified TinyBERT: Knowledge Distillation for Document Retrieval.](https://arxiv.org/pdf/2009.07531.pdf) *Xuanang Chen et.al.* ECIR 2021. [[code](https://github.com/cxa-unique/Simplified-TinyBERT)] (**TinyBERT+knowledge distillation**)
 - [TILDE: Term Independent Likelihood moDEl for Passage Re-ranking.](https://dl.acm.org/doi/pdf/10.1145/3404835.3462922) *Shengyao Zhuang, Guido Zuccon* SIGIR 2021. [[code](https://github.com/ielab/TILDE)] (**TILDE**)
+- [Fast Forward Indexes for Efficient Document Ranking.](https://arxiv.org/pdf/2110.06051.pdf) *Jurek Leonhardt et.al.* WWW 2022. (**Fast forward index**)
 
 
 ### Cross-lingual retrieval
