@@ -18,7 +18,7 @@
   - [Sparse Retrieval](#sparse-retrieval)
     - [Neural term re-weighting](#neural-term-re-weighting)
     - [Query or document expansion](#query-or-document-expansion)
-    - [Combining Neural term re-weighting and document expansion](#combining-neural-term-re-weighting-and-document-expansion)
+    - [Combining neural term re-weighting and document expansion](#combining-neural-term-re-weighting-and-document-expansion)
   - [Dense Retrieval](#dense-retrieval)
     - [Hard negative sampling](#hard-negative-sampling)
     - [Late interaction and multi-vector representation](#late-interaction-and-multi-vector-representation)
@@ -84,7 +84,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Generation-Augmented Retrieval for Open-Domain Question Answering.](https://arxiv.org/pdf/2009.08553.pdf) *Yuning Mao et.al.* ACL 2021. [[code](https://github.com/morningmoni/GAR)] (**query expansion with BART**)
 
 
-### Combining Neural term re-weighting and document expansion
+#### Combining neural term re-weighting and document expansion
 - [SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval.](https://arxiv.org/pdf/2010.00768.pdf) *Yang Bai, Xiaoguang Li et.al.* Arxiv 2020. (**SparTerm: Term importance distribution from MLM+Binary Term Gating**)
 - [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking.](https://arxiv.org/pdf/2107.05720.pdf), and [v2.](https://arxiv.org/pdf/2109.10086.pdf) *Thibault Formal et.al.* SIGIR 2021. [[code](https://github.com/naver/splade)](**SPLADE**)
 
@@ -119,7 +119,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [RocketQAv2: A Joint Training Method for Dense Passage Retrieval and Passage Re-ranking.](https://arxiv.org/pdf/2110.07367.pdf) *Ruiyang Ren, Yingqi Qu et.al.* EMNLP 2021. [[code](https://github.com/PaddlePaddle/RocketQA)] (**RocketQAv2, joint learning by distillation**)
 
 
-### Jointly learning to retrieve and index
+#### Jointly learning to retrieve and index
 - [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index.](https://arxiv.org/pdf/2105.03933.pdf) *Han Zhang et.al.* SIGIR 2021 short. [[code](https://github.com/jdcomsearch/poeem)] (**Poeem**)
 - [Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance.](https://arxiv.org/pdf/2108.00644.pdf) *Jingtao Zhan et.al.* CIKM 2021. [[code](https://github.com/jingtaozhan/JPQ)] (**JPQ**)
 - [Efficient Passage Retrieval with Hashing for Open-domain Question Answering.](https://arxiv.org/pdf/2106.00882.pdf) *Ikuya Yamada et.al.* ACL 2021. [[code](https://github.com/studio-ousia/bpr)] (**BPR, convert embedding vector to binary codes**)
@@ -143,7 +143,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Multi-Task Retrieval for Knowledge-Intensive Tasks.](https://arxiv.org/pdf/2101.00117.pdf) *Jean Maillard, Vladimir Karpukhin^ et.al.*  ACL 2021. (**Multi-task learning**)
 
 
-### Combining sparse retrieval and dense retrieval
+### Combining Sparse Retrieval and Dense Retrieval
 - [Complement Lexical Retrieval Model with Semantic Residual Embeddings.](https://arxiv.org/pdf/2004.13969.pdf) *Luyu Gao et.al.* ECIR 2021.
 - [BERT-based Dense Retrievers Require Interpolation with BM25 for Effective Passage Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3471158.3472233) *Shuai Wang et.al.* ICTIR 2021.
 - [Progressively Optimized Bi-Granular Document Representation for Scalable Embedding Based Retrieval.](https://arxiv.org/pdf/2201.05409.pdf) *Shitao Xiao et.al.* WWW 2022. [[code](https://github.com/microsoft/BiDR)]
@@ -188,7 +188,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Leveraging Passage-level Cumulative Gain for Document Ranking.](https://dl.acm.org/doi/pdf/10.1145/3366423.3380305) *Zhijing Wu et.al.* WWW 2020. (**PCGM**)
 
 
-#### Designing New Architectures
+#### Designing new architectures
 - [Local Self-Attention over Long Text for Efficient Document Retrieval.](https://arxiv.org/pdf/2005.04908.pdf) *Sebastian Hofstätter et.al.* SIGIR 2020 short. [[code](https://github.com/sebastian-hofstaetter/transformer-kernel-ranking)] (**TKL:Transformer-Kernel for long text**)
 - [Beyond 512 Tokens: Siamese Multi-depth Transformer-based Hierarchical Encoder for Long-Form Document Matching.](https://arxiv.org/pdf/2004.12297v2.pdf) *Liu Yang et.al.* CIKM 2020. [[code](https://github.com/google-research/google-research/tree/master/smith)] (**SMITH for doc2doc matching**)
 - [Socialformer: Social Network Inspired Long Document Modeling for Document Ranking.](https://arxiv.org/pdf/2202.10870.pdf) *Yujia Zhou et.al.* WWW 2022. (**Socialformer**)
