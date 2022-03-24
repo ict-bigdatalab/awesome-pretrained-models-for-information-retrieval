@@ -32,11 +32,11 @@
   - [Basic Usage](#basic-usage)
     - [Discriminative ranking models](#discriminative-ranking-models)
     - [Generative ranking models](#generative-ranking-models)
-    - [Hybrid retrieval models](#hybrid-retrieval-models)
+    - [Hybrid ranking models](#hybrid-ranking-models)
   - [Long Document Processing Techniques](#long-document-processing-techniques)
     - [Passage score aggregation](#passage-score-aggregation)
     - [Passage representation aggregation](#passage-representation-aggregation)
-    - [Designing New Architectures](#designing-new-architectures)
+    - [Designing new architectures](#designing-new-architectures)
   - [Improving Effeiciency](#improving-effeiciency)
     - [Decoupling the interaction](#decoupling-the-interaction)
     - [Knowledge distillation](#knowledge-distillation)
@@ -171,7 +171,7 @@ For people who want to acquire some basic&advanced knowledge about neural models
 - [Document Ranking with a Pretrained Sequence-to-Sequence Model.](https://arxiv.org/pdf/2003.06713.pdf) *Rodrigo Nogueira, Zhiying Jiang et.al.* EMNLP 2020. [[code](https://github.com/castorini/pygaggle/)] (**Relevance token  generation using T5**)
 
 
-#### Hybrid retrieval models
+#### Hybrid ranking models
 - [Generalizing Discriminative Retrieval Models using Generative Tasks.](https://ciir-publications.cs.umass.edu/pub/web/getpdf.php?id=1414) *Bingsheng Liu, Hamed Zamani et.al.* WWW 2021. (**GDMTL,joint discriminative and generative model with multitask learning**)
 
 
