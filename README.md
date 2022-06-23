@@ -244,7 +244,7 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 - [Contrastive Learning of User Behavior Sequence for Context-Aware Document Ranking.](https://arxiv.org/pdf/2108.10510.pdf) *Yutao Zhu et.al.* CIKM 2021. [[code](https://github.com/DaoD/COCA)](**COCA**)
 - [Pre-trained Language Model based Ranking in Baidu Search.](https://arxiv.org/pdf/2105.11108.pdf) *Lixin Zou et.al.* KDD 2021.
 - [A Unified Pretraining Framework for Passage Ranking and Expansion.](https://ojs.aaai.org/index.php/AAAI/article/view/16584) *Ming Yan et.al.* AAAI 2021. (**UED, jointly training ranking and query generation**)
-
+- [Axiomatically Regularized Pre-training for Ad hoc Search.](https://xuanyuan14.github.io/files/SIGIR22Chen.pdf) *Jia Chen et.al.* SIGIR 2022. [[code](https://github.com/xuanyuan14/ARES)] (**ARES**)
 
 
 ### Cross-lingual Retrieval
