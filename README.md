@@ -37,7 +37,7 @@
     - [Passage score aggregation](#passage-score-aggregation)
     - [Passage representation aggregation](#passage-representation-aggregation)
     - [Designing new architectures](#designing-new-architectures)
-  - [Improving Effeiciency](#improving-effeiciency)
+  - [Improving Efficiency](#improving-efficiency)
     - [Decoupling the interaction](#decoupling-the-interaction)
     - [Knowledge distillation](#knowledge-distillation)
     - [Early exit](#early-exit)
@@ -62,7 +62,7 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 - [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al. IPM 2020*
 
  
-## Survey Paper
+## Survey Papers
 - [Pre-training Methods in Information Retrieval.](https://arxiv.org/pdf/2111.13853.pdf) *Yixing Fan, Xiaohui Xie et.al.* 2021
 - [Pretrained Transformers for Text Ranking: BERT and Beyond.](https://arxiv.org/abs/2010.06467) *Jimmy Lin et.al.*  2020
 - [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) *Jiafeng Guo et.al.* TOIS 2021
@@ -143,7 +143,8 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 - [Less is More: Pre-train a Strong Text Encoder for Dense Retrieval Using a Weak Decoder.](https://arxiv.org/pdf/2102.09206.pdf) *Shuqi Lu, Di He, Chenyan Xiong et.al.* EMNLP 2021. [[code](https://github.com/microsoft/SEED-Encoder/)] (**Seed**)
 - [Condenser: a Pre-training Architecture for Dense Retrieval.](https://arxiv.org/pdf/2104.08253.pdf) *Luyu Gao et.al.* EMNLP 2021. [[code](https://github.com/luyug/Condenser)](**Condenser**)
 - [Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval.](https://arxiv.org/pdf/2108.05540.pdf) *Luyu Gao et.al.* ACL 2022. [[code](https://github.com/luyug/Condenser)](**coCondenser**)
-
+- [LaPraDoR: Unsupervised Pretrained Dense Retriever for Zero-Shot Text Retrieval.](https://arxiv.org/pdf/2203.06169.pdf) *Canwen Xu, Daya Guo et.al.* ACL 2022. [[code](https://github.com/JetRunner/LaPraDoR)] (**LaPraDoR, ICT+dropout**)
+- [Pre-train a Discriminative Text Encoder for Dense Retrieval via Contrastive Span Prediction](https://arxiv.org/pdf/2204.10641.pdf) *Xinyu Ma et.al.* SIGIR 2022. [[code](https://github.com/Albert-Ma/COSTA)]
 
 
 ### Combining Sparse Retrieval and Dense Retrieval
@@ -266,6 +267,9 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 (**DSI**)
 - [DynamicRetriever: A Pre-training Model-based IR System with Neither Sparse nor Dense Index.](https://arxiv.org/pdf/2203.00537.pdf) *Yujia Zhou et.al.* Arxiv 2022. 
 (**DynamicRetriever**)
+- [A Neural Corpus Indexer for Document Retrieval.](https://arxiv.org/pdf/2206.02743.pdf) *Yujing Wang et.al.* Arxiv 2022. (**NCI**)
+- [Autoregressive Search Engines: Generating Substrings as Document Identifiers.](https://arxiv.org/pdf/2204.10628.pdf) *Michele Bevilacqua et.al.* Arxiv 2022. [[code](https://github.com/facebookresearch/SEAL)] (**SEAL**)
+
 
 
 ## Multimodal Retrieval
