@@ -24,7 +24,8 @@
     - [Hard negative sampling](#hard-negative-sampling)
     - [Late interaction and multi-vector representation](#late-interaction-and-multi-vector-representation)
     - [Knowledge distillation](#knowledge-distillation)
-    - [Jointly learning to retrieve and index](#jointly-learning-to-retrieve-and-index)
+    - [Domain adaptation](#domain-adaptation)
+    - [Jointly learning retrieval and indexing](#jointly-learning-retrieval-and-indexing)
     - [Pre-training tailored for dense retrieval](#pre-training-tailored-for-dense-retrieval)
   - [Combining Sparse Retrieval and Dense Retrieval](#combining-sparse-retrieval-and-dense-retrieval)
 
@@ -113,6 +114,8 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 - [Poly-encoders: Architectures and pre-training strategies for fast and accurate multi-sentence scoring.](https://arxiv.org/pdf/1905.01969.pdf) *Samuel Humeau,Kurt Shuster et.al.* ICLR 2020. [[code](https://github.com/facebookresearch/ParlAI/tree/master/projects/polyencoder)] (**Poly-encoders**)
 - [Sparse, Dense, and Attentional Representations for Text Retrieval.](https://arxiv.org/pdf/2005.00181.pdf) *Yi Luan, Jacob Eisenstein et.al.* TACL 2020. (**ME-BERT, multi-vectors**)
 - [Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval.](https://arxiv.org/pdf/2105.03599.pdf) *Hongyin Tang, Xingwu Sun et.al.* ACL 2021.
+- [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index.](https://arxiv.org/pdf/1906.05807.pdf) *Minjoon Seo,Jinhyuk Lee et.al.* ACL 2019. [[code](https://github.com/uwnlp/denspi)] (**DENSPI**)
+- [Learning Dense Representations of Phrases at Scale.](https://arxiv.org/pdf/2012.12624.pdf) *Jinhyuk Lee, Danqi Chen et.al.* ACL 2021. [[code](https://github.com/jhyuklee/DensePhrases)] (**DensePhrases**)
 
 
 #### Knowledge distillation
@@ -124,18 +127,18 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 - [RocketQAv2: A Joint Training Method for Dense Passage Retrieval and Passage Re-ranking.](https://arxiv.org/pdf/2110.07367.pdf) *Ruiyang Ren, Yingqi Qu et.al.* EMNLP 2021. [[code](https://github.com/PaddlePaddle/RocketQA)] (**RocketQAv2, joint learning by distillation**)
 
 
-#### Jointly learning to retrieve and index
+#### Jointly learning retrieval and indexing
 - [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index.](https://arxiv.org/pdf/2105.03933.pdf) *Han Zhang et.al.* SIGIR 2021 short. [[code](https://github.com/jdcomsearch/poeem)] (**Poeem**)
 - [Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance.](https://arxiv.org/pdf/2108.00644.pdf) *Jingtao Zhan et.al.* CIKM 2021. [[code](https://github.com/jingtaozhan/JPQ)] (**JPQ**)
 - [Learning Discrete Representations via Constrained Clustering for Effective and Efficient Dense Retrieval.](https://arxiv.org/pdf/2110.05789.pdf)*Jingtao Zhan et.al.* WSDM 2022. [[code](https://github.com/jingtaozhan/RepCONC)] (**RepCONC**)
 
 
-#### Improving 
-- [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index.](https://arxiv.org/pdf/1906.05807.pdf) *Minjoon Seo,Jinhyuk Lee et.al.* ACL 2019. [[code](https://github.com/uwnlp/denspi)] (**DENSPI**)
-- [Learning Dense Representations of Phrases at Scale.](https://arxiv.org/pdf/2012.12624.pdf) *Jinhyuk Lee, Danqi Chen et.al.* ACL 2021. [[code](https://github.com/jhyuklee/DensePhrases)] (**DensePhrases**)
+#### Domain adaptation
+
 - [Multi-Task Retrieval for Knowledge-Intensive Tasks.](https://arxiv.org/pdf/2101.00117.pdf) *Jean Maillard, Vladimir Karpukhin^ et.al.*  ACL 2021. (**Multi-task learning**)
+- [Evaluating Extrapolation Performance of Dense Retrieval.](https://arxiv.org/pdf/2204.11447.pdf) *Jingtao Zhan et.al.* Arxiv 2022. [[code](https://github.com/jingtaozhan/extrapolate-eval)]
 
-
+ 
 #### Pre-training tailored for dense retrieval
 - [Latent Retrieval for Weakly Supervised Open Domain Question Answering.](https://arxiv.org/pdf/1906.00300.pdf) *Kenton Lee et.al.* ACL 2019. [[code](https://github.com/google-research/language/blob/master/language/orqa/README.md)] (**ORQA, ICT**)
 - [Pre-training tasks for embedding-based large scale retrieval.](https://arxiv.org/pdf/2002.03932.pdf) *Wei-Cheng Chang et.al.* ICLR 2020. (**ICT, BFS and WLP**)
