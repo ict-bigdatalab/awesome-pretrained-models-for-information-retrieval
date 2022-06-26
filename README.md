@@ -116,7 +116,7 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 - [Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval.](https://arxiv.org/pdf/2105.03599.pdf) *Hongyin Tang, Xingwu Sun et.al.* ACL 2021.
 - [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index.](https://arxiv.org/pdf/1906.05807.pdf) *Minjoon Seo,Jinhyuk Lee et.al.* ACL 2019. [[code](https://github.com/uwnlp/denspi)] (**DENSPI**)
 - [Learning Dense Representations of Phrases at Scale.](https://arxiv.org/pdf/2012.12624.pdf) *Jinhyuk Lee, Danqi Chen et.al.* ACL 2021. [[code](https://github.com/jhyuklee/DensePhrases)] (**DensePhrases**)
-
+- [Multi-View Document Representation Learning for Open-Domain Dense Retrieval.](https://arxiv.org/pdf/2203.08372.pdf) *Shunyu Zhang et.al.* ACL 2022. (**MVR**)
 
 #### Knowledge distillation
 - [Distilling Knowledge from Reader to Retriever for Question Answering.](https://arxiv.org/pdf/2012.04584.pdf) *Gautier Izacard, Edouard Grave.* ICLR 2020. [[unofficial code](https://github.com/lucidrains/distilled-retriever-pytorch)] (**Distill cross-attention of reader to retriever**)
