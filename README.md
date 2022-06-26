@@ -7,11 +7,11 @@
 
 # awesome-pretrained-models-for-information-retrieval 
 
-> A curated list of awesome papers related to pre-trained models for information retrieval (a.k.a., **pretraining for IR**). If there are any papers I missed, please let me know! And any feedback and contribution are welcome! 
+> A curated list of awesome papers related to pre-trained models for information retrieval (a.k.a., **pre-training for IR**). If there are any papers I missed, please let me know! And any feedback and contributions are welcome! 
 
 
 
-## Pretraining for IR
+## Pre-training for IR
 
 - [Survey Papers](#survey-papers)
 - [Phase 1: First-stage Retrieval](#first-stage-retrieval)
