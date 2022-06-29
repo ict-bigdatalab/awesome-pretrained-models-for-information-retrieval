@@ -145,9 +145,13 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 - [REALM: Retrieval-Augmented Language Model Pre-Training.](https://arxiv.org/pdf/2002.08909.pdf) *Kelvin Guu, Kenton Lee et.al.* ICML 2020. [[code](https://github.com/google-research/language/blob/master/language/realm/README.md)] (**REALM**)
 - [Less is More: Pre-train a Strong Text Encoder for Dense Retrieval Using a Weak Decoder.](https://arxiv.org/pdf/2102.09206.pdf) *Shuqi Lu, Di He, Chenyan Xiong et.al.* EMNLP 2021. [[code](https://github.com/microsoft/SEED-Encoder/)] (**Seed**)
 - [Condenser: a Pre-training Architecture for Dense Retrieval.](https://arxiv.org/pdf/2104.08253.pdf) *Luyu Gao et.al.* EMNLP 2021. [[code](https://github.com/luyug/Condenser)](**Condenser**)
+- [Unsupervised Context Aware Sentence Representation Pretraining for Multi-lingual Dense Retrieval.](https://arxiv.org/pdf/2206.03281.pdf) *Ning Wu et.al.* JICAI 2022. [[code](https://github.com/wuning0929/CCP_IJCAI22)](**CCP, cross-lingual pre-training**)
 - [Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval.](https://arxiv.org/pdf/2108.05540.pdf) *Luyu Gao et.al.* ACL 2022. [[code](https://github.com/luyug/Condenser)](**coCondenser**)
 - [LaPraDoR: Unsupervised Pretrained Dense Retriever for Zero-Shot Text Retrieval.](https://arxiv.org/pdf/2203.06169.pdf) *Canwen Xu, Daya Guo et.al.* ACL 2022. [[code](https://github.com/JetRunner/LaPraDoR)] (**LaPraDoR, ICT+dropout**)
 - [Pre-train a Discriminative Text Encoder for Dense Retrieval via Contrastive Span Prediction](https://arxiv.org/pdf/2204.10641.pdf) *Xinyu Ma et.al.* SIGIR 2022. [[code](https://github.com/Albert-Ma/COSTA)]
+
+
+
 
 
 ### Combining Sparse Retrieval and Dense Retrieval
