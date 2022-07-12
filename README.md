@@ -7,7 +7,7 @@
 
 # awesome-pretrained-models-for-information-retrieval 
 
-> A curated list of awesome papers related to pre-trained models for information retrieval (a.k.a., **pre-training for IR**). If there are any papers I missed, please let me know! And any feedback and contributions are welcome! 
+> A curated list of awesome papers related to pre-trained models for information retrieval (a.k.a., **pre-training for IR**). If I missed any papers, feel free to open a PR to include them! And any feedback and contributions are welcome! 
 
 
 
@@ -59,14 +59,15 @@
 
 <!-- *We also include the recent Multimodal Pre-training works whose pre-trained models fine-tuned on the cross-modal retrieval tasks such as text-image retrieval in their experiments.* -->
 
-For people who want to acquire some basic & advanced knowledge about neural models for information retrieval and try some neural models by hand, we refer readers to the below awesome NeuIR survey and the text-matching toolkit [MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py):
-- [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al. IPM 2020*
+<!-- For people who want to acquire some basic & advanced knowledge about neural models for information retrieval and try some neural models by hand, we refer readers to the below awesome NeuIR survey and the text-matching toolkit [MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py):
+- [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al. IPM 2020* -->
 
  
 ## Survey Papers
 - [Pre-training Methods in Information Retrieval.](https://arxiv.org/pdf/2111.13853.pdf) *Yixing Fan, Xiaohui Xie et.al.* 2021
 - [Pretrained Transformers for Text Ranking: BERT and Beyond.](https://arxiv.org/abs/2010.06467) *Jimmy Lin et.al.*  2020
 - [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) *Jiafeng Guo et.al.* TOIS 2021
+- [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al. IPM 2020*
 
 ## First Stage Retrieval
 
