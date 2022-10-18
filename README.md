@@ -200,7 +200,7 @@
 - [Pre-train a Discriminative Text Encoder for Dense Retrieval via Contrastive Span Prediction](https://arxiv.org/pdf/2204.10641.pdf) *Xinyu Ma et.al.* SIGIR 2022. [[code](https://github.com/Albert-Ma/COSTA)](**COSTA, group-wise contrastive learning**)
 - [H-ERNIE: A Multi-Granularity Pre-Trained Language Model for Web Search.](https://dl.acm.org/doi/pdf/10.1145/3477495.3531986) *Xiaokai Chu et.al.* SIGIR 2022. (**H-ERNIE**)
 - [Structure and Semantics Preserving Document Representations.](https://arxiv.org/pdf/2201.03720.pdf) *Natraj Raman et.al.* SIGIR 2022.
-
+- [Contriever: Unsupervised Dense Information Retrieval with Contrastive Learning.](https://arxiv.org/pdf/2112.09118.pdf) *Gautier Izacard et.al.* TMLR 2022. [[code](https://github.com/facebookresearch/contriever)] (**Contriever**)
 
 
 #### Jointly learning retrieval and indexing
