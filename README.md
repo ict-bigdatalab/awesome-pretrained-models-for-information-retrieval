@@ -35,9 +35,11 @@
     - [Hard negative sampling](#hard-negative-sampling)
     - [Late interaction and multi-vector representation](#late-interaction-and-multi-vector-representation)
     - [Knowledge distillation](#knowledge-distillation)
-    - [Domain adaptation](#domain-adaptation)
-    - [Jointly learning retrieval and indexing](#jointly-learning-retrieval-and-indexing)
     - [Pre-training tailored for dense retrieval](#pre-training-tailored-for-dense-retrieval)
+    - [Jointly learning retrieval and indexing](#jointly-learning-retrieval-and-indexing)
+    - [Domain adaptation](#domain-adaptation)
+    - [Query reformulation](#query-reformulation)
+    - [Bias](#bias)
   </details>
 
   <details>
@@ -88,6 +90,7 @@
   - [Query Expansion](#query-expansion)
   - [Re-weighting Training Samples](#re-weighting-training-samples)
   - [Pre-training Tailored for Re-ranking](#pre-training-tailored-for-re-ranking)
+  - [Robustness & Adversarial Training](#robustness-&-adversarial-training)
   - [Cross-lingual Retrieval](#cross-lingual-retrieval)
   </details>
 
@@ -173,6 +176,7 @@
 - [Learning Dense Representations of Phrases at Scale.](https://arxiv.org/pdf/2012.12624.pdf) *Jinhyuk Lee, Danqi Chen et.al.* ACL 2021. [[code](https://github.com/jhyuklee/DensePhrases)] (**DensePhrases**)
 - [Multi-View Document Representation Learning for Open-Domain Dense Retrieval.](https://arxiv.org/pdf/2203.08372.pdf) *Shunyu Zhang et.al.* ACL 2022. (**MVR**)
 
+
 #### Knowledge distillation
 - [Distilling Knowledge from Reader to Retriever for Question Answering.](https://arxiv.org/pdf/2012.04584.pdf) *Gautier Izacard, Edouard Grave.* ICLR 2020. [[unofficial code](https://github.com/lucidrains/distilled-retriever-pytorch)] (**Distill cross-attention of reader to retriever**)
 - [Distilling Knowledge for Fast Retrieval-based Chat-bots.](https://arxiv.org/pdf/2004.11045.pdf) *Amir Vakili Tahami et.al.* SIGIR 2020. [[code](https://github.com/KamyarGhajar/DistilledNeuralResponseRanker)] (**Distill from cross-encoders to bi-encoders**)
@@ -180,18 +184,7 @@
 - [Distilling Dense Representations for Ranking using Tightly-Coupled Teachers.](https://arxiv.org/pdf/2010.11386.pdf) *Sheng-Chieh Lin, Jheng-Hong Yang, Jimmy Lin.* Arxiv 2020. [[code](https://github.com/castorini/pyserini/blob/master/docs/experiments-tct_colbert.md)] (**TCTColBERT: distill from ColBERT**)
 - [Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling.](https://arxiv.org/pdf/2104.06967.pdf) *Sebastian Hofstätter et.al.* SIGIR 2021.[[code](https://github.com/sebastian-hofstaetter/tas-balanced-dense-retrieval)] (**TAS-Balanced, sample from query cluster and distill from BERT ensemble**)
 - [RocketQAv2: A Joint Training Method for Dense Passage Retrieval and Passage Re-ranking.](https://arxiv.org/pdf/2110.07367.pdf) *Ruiyang Ren, Yingqi Qu et.al.* EMNLP 2021. [[code](https://github.com/PaddlePaddle/RocketQA)] (**RocketQAv2, joint learning by distillation**)
-
-
-#### Jointly learning retrieval and indexing
-- [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index.](https://arxiv.org/pdf/2105.03933.pdf) *Han Zhang et.al.* SIGIR 2021 short. [[code](https://github.com/jdcomsearch/poeem)] (**Poeem**)
-- [Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance.](https://arxiv.org/pdf/2108.00644.pdf) *Jingtao Zhan et.al.* CIKM 2021. [[code](https://github.com/jingtaozhan/JPQ)] (**JPQ**)
-- [Learning Discrete Representations via Constrained Clustering for Effective and Efficient Dense Retrieval.](https://arxiv.org/pdf/2110.05789.pdf)*Jingtao Zhan et.al.* WSDM 2022. [[code](https://github.com/jingtaozhan/RepCONC)] (**RepCONC**)
-
-
-#### Domain adaptation
-
-- [Multi-Task Retrieval for Knowledge-Intensive Tasks.](https://arxiv.org/pdf/2101.00117.pdf) *Jean Maillard, Vladimir Karpukhin^ et.al.*  ACL 2021. (**Multi-task learning**)
-- [Evaluating Extrapolation Performance of Dense Retrieval.](https://arxiv.org/pdf/2204.11447.pdf) *Jingtao Zhan et.al.* Arxiv 2022. [[code](https://github.com/jingtaozhan/extrapolate-eval)]
+- [Curriculum Contrastive Context Denoising for Few-shot Conversational Dense Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3477495.3531961) *Kelong Mao et.al.* SIGIR 2022.
 
  
 #### Pre-training tailored for dense retrieval
@@ -203,11 +196,37 @@
 - [Unsupervised Context Aware Sentence Representation Pretraining for Multi-lingual Dense Retrieval.](https://arxiv.org/pdf/2206.03281.pdf) *Ning Wu et.al.* JICAI 2022. [[code](https://github.com/wuning0929/CCP_IJCAI22)](**CCP, cross-lingual pre-training**)
 - [Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval.](https://arxiv.org/pdf/2108.05540.pdf) *Luyu Gao et.al.* ACL 2022. [[code](https://github.com/luyug/Condenser)](**coCondenser**)
 - [LaPraDoR: Unsupervised Pretrained Dense Retriever for Zero-Shot Text Retrieval.](https://arxiv.org/pdf/2203.06169.pdf) *Canwen Xu, Daya Guo et.al.* ACL 2022. [[code](https://github.com/JetRunner/LaPraDoR)] (**LaPraDoR, ICT+dropout**)
-- [Pre-train a Discriminative Text Encoder for Dense Retrieval via Contrastive Span Prediction](https://arxiv.org/pdf/2204.10641.pdf) *Xinyu Ma et.al.* SIGIR 2022. [[code](https://github.com/Albert-Ma/COSTA)]
+- [A Contrastive Pre-training Approach to Learn Discriminative Autoencoder for Dense Retrieval.](https://arxiv.org/pdf/2208.09846.pdf) *Xinyu Ma et.al.* CIKM 2022. (**CPADE, document term distribution-based contrastive pretraining**)
+- [Pre-train a Discriminative Text Encoder for Dense Retrieval via Contrastive Span Prediction](https://arxiv.org/pdf/2204.10641.pdf) *Xinyu Ma et.al.* SIGIR 2022. [[code](https://github.com/Albert-Ma/COSTA)](**COSTA, group-wise contrastive learning**)
+- [H-ERNIE: A Multi-Granularity Pre-Trained Language Model for Web Search.](https://dl.acm.org/doi/pdf/10.1145/3477495.3531986) *Xiaokai Chu et.al.* SIGIR 2022. (**H-ERNIE**)
+- [Structure and Semantics Preserving Document Representations.](https://arxiv.org/pdf/2201.03720.pdf) *Natraj Raman et.al.* SIGIR 2022.
 
 
 
+#### Jointly learning retrieval and indexing
+- [Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index.](https://arxiv.org/pdf/2105.03933.pdf) *Han Zhang et.al.* SIGIR 2021 short. [[code](https://github.com/jdcomsearch/poeem)] (**Poeem**)
+- [Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance.](https://arxiv.org/pdf/2108.00644.pdf) *Jingtao Zhan et.al.* CIKM 2021. [[code](https://github.com/jingtaozhan/JPQ)] (**JPQ**)
+- [Learning Discrete Representations via Constrained Clustering for Effective and Efficient Dense Retrieval.](https://arxiv.org/pdf/2110.05789.pdf)*Jingtao Zhan et.al.* WSDM 2022. [[code](https://github.com/jingtaozhan/RepCONC)] (**RepCONC**)
+- [Matchingoriented Embedding Quantization For Ad-hoc Retrieval.](https://arxiv.org/pdf/2104.07858.pdf) *Shitao Xiao et.al.* EMNLP 2021. [[code](https://github.com/microsoft/MoPQ)]
+- [Distill-VQ: Learning Retrieval Oriented Vector Quantization By Distilling Knowledge from Dense Embeddings.](https://arxiv.org/pdf/2204.00185.pdf) *Shitao Xiao et.al.* SIGIR 2022. [[code](https://github.com/staoxiao/LibVQ)]
 
+
+
+#### Domain adaptation
+- [Multi-Task Retrieval for Knowledge-Intensive Tasks.](https://arxiv.org/pdf/2101.00117.pdf) *Jean Maillard, Vladimir Karpukhin^ et.al.*  ACL 2021. (**Multi-task learning**)
+- [Evaluating Extrapolation Performance of Dense Retrieval.](https://arxiv.org/pdf/2204.11447.pdf) *Jingtao Zhan et.al.* CIKM 2022. [[code](https://github.com/jingtaozhan/extrapolate-eval)]
+
+
+#### Query reformulation
+- [PseudoRelevance Feedback for Multiple Representation Dense Retrieval.](https://arxiv.org/pdf/2106.11251.pdf) *Xiao Wang et.al.* ICTIR 2021 (**ColBERT-PRF**)
+- [Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback.](https://arxiv.org/pdf/2108.13454.pdf) *HongChien Yu et.al.* CIKM 2021. [[code](https://github.com/yuhongqian/ANCE-PRF)] (**ANCE-PRF**)
+- [LoL: A Comparative Regularization Loss over Query Reformulation Losses for Pseudo-Relevance Feedback.](https://arxiv.org/pdf/2204.11545.pdf) *Yunchang Zhu et.al.* SIGIR 2022. [[code](https://github.com/zycdev/LoL)] (**LoL, Pseudo-relevance feedback**)
+
+
+
+#### Bias
+- [Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach.](https://arxiv.org/pdf/2204.00718.pdf) *Shengyao Zhuang et.al.* SIGIR 2022. [[code](https://github.com/ielab/Counterfactual-DR)] (**CoRocchio, Counterfactual Rocchio algorithm**)
+- [Hard Negatives or False Negatives: Correcting Pooling Bias in Training Neural Ranking Models.](https://arxiv.org/pdf/2209.05072.pdf) *Yinqiong Cai et.al.* CIKM 2022.
 
 ### Hybrid Retrieval
 - [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index.](https://arxiv.org/pdf/1906.05807.pdf) *Minjoon Seo,Jinhyuk Lee et.al.* ACL 2019. [[code](https://github.com/uwnlp/denspi)] (**DENSPI**)
@@ -276,8 +295,9 @@
 - [Simplified TinyBERT: Knowledge Distillation for Document Retrieval.](https://arxiv.org/pdf/2009.07531.pdf) *Xuanang Chen et.al.* ECIR 2021. [[code](https://github.com/cxa-unique/Simplified-TinyBERT)] (**TinyBERT+knowledge distillation**)
 
 
-### Partial Fine-tuning
+#### Partial Fine-tuning
 - [Semi-Siamese Bi-encoder Neural Ranking Model Using Lightweight Fine-Tuning.](https://arxiv.org/pdf/2110.14943.pdf) *Euna Jung, Jaekeol Choi et.al.* WWW 2022. [[code](https://github.com/xlpczv/Semi_Siamese)] (**Lightweight Fine-Tuning**)
+- [Scattered or Connected? An Optimized Parameter-efficient Tuning Approach for Information Retrieval.](https://arxiv.org/pdf/2208.09847.pdf) *Xinyu Ma et.al.* CIKM 2022.(**IAA, introduce the aside module to stabilize training**)
 
 
 #### Early exit
@@ -308,6 +328,14 @@
 - [Pre-trained Language Model based Ranking in Baidu Search.](https://arxiv.org/pdf/2105.11108.pdf) *Lixin Zou et.al.* KDD 2021.
 - [A Unified Pretraining Framework for Passage Ranking and Expansion.](https://ojs.aaai.org/index.php/AAAI/article/view/16584) *Ming Yan et.al.* AAAI 2021. (**UED, jointly training ranking and query generation**)
 - [Axiomatically Regularized Pre-training for Ad hoc Search.](https://xuanyuan14.github.io/files/SIGIR22Chen.pdf) *Jia Chen et.al.* SIGIR 2022. [[code](https://github.com/xuanyuan14/ARES)] (**ARES**)
+- [Webformer: Pre-training with Web Pages for Information Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3477495.3532086) *Yu Guo et.al.* SIGIR 2022. (**Webformer**)
+
+
+
+#### Robustness & Adversarial Training
+- [Competitive Search.](https://dl.acm.org/doi/pdf/10.1145/3477495.3532771) *Oren Kurland et.al.* SIGIR 2022.
+
+
 
 
 #### Cross-lingual Retrieval
@@ -317,9 +345,10 @@
 
 
 
-## Jointly Learning to Retrieve and Re-rank
+## Jointly Learning Retrieval and Re-ranking
 - [RocketQAv2: A Joint Training Method for Dense Passage Retrieval and Passage Re-ranking.](https://arxiv.org/pdf/2110.07367.pdf) *Ruiyang Ren, Yingqi Qu et.al.* EMNLP 2021. [[code](https://github.com/PaddlePaddle/RocketQA)] (**RocketQAv2**)
 - [Adversarial Retriever-Ranker for dense text retrieval.](https://arxiv.org/pdf/2110.03611.pdf) *Hang Zhang et.al.* ICLR 2022. [[code](https://github.com/microsoft/AR2)] (**AR2**)
+- [RankFlow: Joint Optimization of Multi-Stage Cascade Ranking Systems as Flows.](https://dl.acm.org/doi/pdf/10.1145/3477495.3532050) *Jiarui Qin et.al.* SIGIR 2022. (**RankFlow**)
 
 
 
@@ -332,7 +361,7 @@
 (**DynamicRetriever**)
 - [A Neural Corpus Indexer for Document Retrieval.](https://arxiv.org/pdf/2206.02743.pdf) *Yujing Wang et.al.* Arxiv 2022. (**NCI**)
 - [Autoregressive Search Engines: Generating Substrings as Document Identifiers.](https://arxiv.org/pdf/2204.10628.pdf) *Michele Bevilacqua et.al.* Arxiv 2022. [[code](https://github.com/facebookresearch/SEAL)] (**SEAL**)
-
+- [CorpusBrain: Pre-train a Generative Retrieval Model for Knowledge-Intensive Language Tasks.](https://arxiv.org/pdf/2208.07652.pdf) *Jiangui Chen et.al.* CIKM 2022. [[code](https://github.com/ict-bigdatalab/CorpusBrain)] (**CorpusBrain**)
 
 
 ## Multimodal Retrieval
