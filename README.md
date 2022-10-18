@@ -15,59 +15,113 @@
 
 - [Survey Papers](#survey-papers)
 - [Phase 1: First-stage Retrieval](#first-stage-retrieval)
-  - [Sparse Retrieval](#sparse-retrieval)
+  <details>
+  <summary>
+  <a href="#sparse-retrieval">Sparse Retrieval </a>
+
+  </summary>
+
     - [Neural term re-weighting](#neural-term-re-weighting)
     - [Query or document expansion](#query-or-document-expansion)
     - [Sparse representation learning](#sparse-representation-learning)
     <!-- - [Combining neural term re-weighting and document expansion](#combining-neural-term-re-weighting-and-document-expansion) -->
-  - [Dense Retrieval](#dense-retrieval)
+  </details>
+
+  <details>
+  <summary>
+    <a href="#dense-retrieval">Dense Retrieval </a>
+  </summary>
+
     - [Hard negative sampling](#hard-negative-sampling)
     - [Late interaction and multi-vector representation](#late-interaction-and-multi-vector-representation)
     - [Knowledge distillation](#knowledge-distillation)
     - [Domain adaptation](#domain-adaptation)
     - [Jointly learning retrieval and indexing](#jointly-learning-retrieval-and-indexing)
     - [Pre-training tailored for dense retrieval](#pre-training-tailored-for-dense-retrieval)
-  - [Combining Sparse Retrieval and Dense Retrieval](#combining-sparse-retrieval-and-dense-retrieval)
+  </details>
+
+  <details>
+  <summary>
+    <a href="#hybrid-retrieval">Hybrid Retrieval </a>
+  </summary>
+
+  </details>
+
 
 - [Phase 2: Re-ranking Stage](#re-ranking-stage)
-  - [Basic Usage](#basic-usage)
+  <details>
+  <summary>
+    <a href="#basic-usage">Basic Usage </a>
+  </summary>
+
     - [Discriminative ranking models](#discriminative-ranking-models)
     - [Generative ranking models](#generative-ranking-models)
     - [Hybrid ranking models](#hybrid-ranking-models)
-  - [Long Document Processing Techniques](#long-document-processing-techniques)
+  </details>
+
+  <details>
+  <summary>
+    <a href="#long-document-processing-techniques">Long Document Processing Techniques </a>
+  </summary>
+
     - [Passage score aggregation](#passage-score-aggregation)
     - [Passage representation aggregation](#passage-representation-aggregation)
     - [Designing new architectures](#designing-new-architectures)
-  - [Improving Efficiency](#improving-efficiency)
+  </details>
+
+  <details>
+  <summary>
+      <a href="#improving-efficiency">Improving Efficiency </a>
+  </summary>
+
     - [Decoupling the interaction](#decoupling-the-interaction)
     - [Knowledge distillation](#knowledge-distillation)
+    - [Partial Fine-tuning](#partial-fine-tuning)
     - [Early exit](#early-exit)
+  </details>
+
+  <details>
+  <summary>
+      <a href="#other-topics">Other Topics </a>
+  </summary>
+
   - [Query Expansion](#query-expansion)
-  - [Partial Fine-tuning](#partial-fine-tuning)
   - [Re-weighting Training Samples](#re-weighting-training-samples)
   - [Pre-training Tailored for Re-ranking](#pre-training-tailored-for-re-ranking)
   - [Cross-lingual Retrieval](#cross-lingual-retrieval)
+  </details>
 
-- [Jointly Learning to Retrieve and Re-rank](#jointly-learning-to-retrieve-and-re-rank)
+- [Jointly Learning Retrieval and Re-ranking](#jointly-learning-retrieval-and-re-ranking)
 - [Model-based IR System](#model-based-ir-system)
-- [Multimodal Retrieval](#multimodal-retrieval)
-  - [Unified Single-stream Architecture](#unified-single-stream-architecture)
-  - [Multi-stream Architecture Applied on Input](#multi-stream-architecture-applied-on-input)
 
+- [Multimodal Retrieval](#multimodal-retrieval)
+  <details>
+  <summary>
+    <a href="#unified-single-stream-architecture">Unified Single-stream Architecture </a>
+  </summary>
+
+  </details>
+
+  <details>
+  <summary>
+      <a href="#multi-stream-architecture-applied-on-input">Multi-stream Architecture Applied on Input </a>
+  </summary>
+
+  </details>
 
 - [Other Resources](#other-resources)
 
-<!-- *We also include the recent Multimodal Pre-training works whose pre-trained models fine-tuned on the cross-modal retrieval tasks such as text-image retrieval in their experiments.* -->
 
-<!-- For people who want to acquire some basic & advanced knowledge about neural models for information retrieval and try some neural models by hand, we refer readers to the below awesome NeuIR survey and the text-matching toolkit [MatchZoo-py](https://github.com/NTMC-Community/MatchZoo-py):
-- [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al. IPM 2020* -->
 
  
 ## Survey Papers
-- [Pre-training Methods in Information Retrieval.](https://arxiv.org/pdf/2111.13853.pdf) *Yixing Fan, Xiaohui Xie et.al.* 2021
-- [Pretrained Transformers for Text Ranking: BERT and Beyond.](https://arxiv.org/abs/2010.06467) *Jimmy Lin et.al.*  2020
+- [Pre-training Methods in Information Retrieval.](https://arxiv.org/pdf/2111.13853.pdf) *Yixing Fan, Xiaohui Xie et.al.*  FnTIR 2022
+- [Pretrained Transformers for Text Ranking: BERT and Beyond.](https://arxiv.org/abs/2010.06467) *Jimmy Lin et.al.*  M&C 2021
 - [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) *Jiafeng Guo et.al.* TOIS 2021
-- [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al. IPM 2020*
+- [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al.* IPM 2020
+
+
+
 
 ## First Stage Retrieval
 
@@ -155,7 +209,7 @@
 
 
 
-### Combining Sparse Retrieval and Dense Retrieval
+### Hybrid Retrieval
 - [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index.](https://arxiv.org/pdf/1906.05807.pdf) *Minjoon Seo,Jinhyuk Lee et.al.* ACL 2019. [[code](https://github.com/uwnlp/denspi)] (**DENSPI**)
 - [Complement Lexical Retrieval Model with Semantic Residual Embeddings.](https://arxiv.org/pdf/2004.13969.pdf) *Luyu Gao et.al.* ECIR 2021.
 - [BERT-based Dense Retrievers Require Interpolation with BM25 for Effective Passage Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3471158.3472233) *Shuai Wang et.al.* ICTIR 2021.
@@ -222,26 +276,27 @@
 - [Simplified TinyBERT: Knowledge Distillation for Document Retrieval.](https://arxiv.org/pdf/2009.07531.pdf) *Xuanang Chen et.al.* ECIR 2021. [[code](https://github.com/cxa-unique/Simplified-TinyBERT)] (**TinyBERT+knowledge distillation**)
 
 
+### Partial Fine-tuning
+- [Semi-Siamese Bi-encoder Neural Ranking Model Using Lightweight Fine-Tuning.](https://arxiv.org/pdf/2110.14943.pdf) *Euna Jung, Jaekeol Choi et.al.* WWW 2022. [[code](https://github.com/xlpczv/Semi_Siamese)] (**Lightweight Fine-Tuning**)
+
+
 #### Early exit
 - [The Cascade Transformer: an Application for Efficient Answer Sentence Selection.](https://arxiv.org/pdf/2005.02534.pdf) *Luca Soldaini et.al.* ACL 2020.[[code](https://github.com/alexa/wqa-cascade-transformers)] (**Cascade Transformer: prune candidates by layer**)
 - [Early Exiting BERT for Efficient Document Ranking.](https://www.aclweb.org/anthology/2020.sustainlp-1.11.pdf) *Ji Xin et.al.* EMNLP 2020 SustaiNLP Workshop. [[code](https://github.com/castorini/earlyexiting-monobert)] (**Early exit**)
 
 
 
-### Re-weighting Training Samples
-- [Training Curricula for Open Domain Answer Re-Ranking.](https://arxiv.org/pdf/2004.14269.pdf) *Sean MacAvaney et.al.* SIGIR 2020. [[code](https://github.com/Georgetown-IR-Lab/curricula-neural-ir)] (**curriculum learning based on BM25**)
-- [Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models.](https://arxiv.org/pdf/2105.04651.pdf) *Daniel Cohen et.al.* SIGIR 2021.
+### Other Topics
 
-### Query Expansion 
+#### Query Expansion 
 - [BERT-QE: Contextualized Query Expansion for Document Re-ranking.](https://arxiv.org/pdf/2009.07258.pdf) *Zhi Zheng et.al.* EMNLP 2020 Findings. [[code](https://github.com/zh-zheng/BERT-QE)] (**BERT-QE**)
 
 
-### Partial Fine-tuning
-- [Semi-Siamese Bi-encoder Neural Ranking Model Using Lightweight Fine-Tuning.](https://arxiv.org/pdf/2110.14943.pdf) *Euna Jung, Jaekeol Choi et.al.* WWW 2022. [[code](https://github.com/xlpczv/Semi_Siamese)] (**Lightweight Fine-Tuning**)
+#### Re-weighting Training Samples
+- [Training Curricula for Open Domain Answer Re-Ranking.](https://arxiv.org/pdf/2004.14269.pdf) *Sean MacAvaney et.al.* SIGIR 2020. [[code](https://github.com/Georgetown-IR-Lab/curricula-neural-ir)] (**curriculum learning based on BM25**)
+- [Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models.](https://arxiv.org/pdf/2105.04651.pdf) *Daniel Cohen et.al.* SIGIR 2021.
 
-
-
-### Pre-training Tailored for Re-ranking
+#### Pre-training Tailored for Re-ranking
 
 - [MarkedBERT: Integrating Traditional IR Cues in Pre-trained Language Models for Passage Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3397271.3401194) *Lila Boualili et.al.* SIGIR 2020 short. [[code](https://github.com/BOUALILILila/markers_bert)] (**MarkedBERT**)
 - [Selective Weak Supervision for Neural Information Retrieval.](https://arxiv.org/pdf/2001.10382.pdf) *Kaitao Zhang et.al.* WWW 2020. [[code](https://github.com/thunlp/ReInfoSelect)] (**ReInfoSelect**)
@@ -255,7 +310,7 @@
 - [Axiomatically Regularized Pre-training for Ad hoc Search.](https://xuanyuan14.github.io/files/SIGIR22Chen.pdf) *Jia Chen et.al.* SIGIR 2022. [[code](https://github.com/xuanyuan14/ARES)] (**ARES**)
 
 
-### Cross-lingual Retrieval
+#### Cross-lingual Retrieval
 - [Cross-lingual Retrieval for Iterative Self-Supervised Training.](https://arxiv.org/pdf/2006.09526.pdf) *Chau Tran et.al.* NIPS 2020. [[code](https://github.com/pytorch/fairseq/tree/master/examples/criss)] (**CRISS**)
 - [CLIRMatrix: A massively large collection of bilingual and multilingual datasets for Cross-Lingual Information Retrieval.](https://www.aclweb.org/anthology/2020.emnlp-main.340.pdf) *Shuo Sun et.al.* EMNLP 2020. [[code](https://github.com/ssun32/CLIRMatrix)] (**Multilingual dataset-CLIRMatrix and multilingual BERT**)
 
@@ -281,6 +336,7 @@
 
 
 ## Multimodal Retrieval
+
 
 ### Unified Single-stream Architecture
 - [Unicoder-VL: A Universal Encoder for Vision and Language by Cross-modal Pre-training.](https://arxiv.org/pdf/1908.06066.pdf) *Gen Li, Nan Duan et.al.* AAAI 2020.  [[code](https://github.com/microsoft/Unicoder)] (**Unicoder-VL**)
