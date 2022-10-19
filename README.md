@@ -90,7 +90,7 @@
   - [Query Expansion](#query-expansion)
   - [Re-weighting Training Samples](#re-weighting-training-samples)
   - [Pre-training Tailored for Re-ranking](#pre-training-tailored-for-re-ranking)
-  - [Robustness & Adversarial Training](#robustness-&-adversarial-training)
+  - [Adversarial Attack and Defence](#adversarial-attack-and-defence)
   - [Cross-lingual Retrieval](#cross-lingual-retrieval)
   </details>
 
@@ -332,8 +332,12 @@
 
 
 
-#### Robustness & Adversarial Training
+#### Adversarial Attack and Defence
 - [Competitive Search.](https://dl.acm.org/doi/pdf/10.1145/3477495.3532771) *Oren Kurland et.al.* SIGIR 2022.
+- [PRADA: Practical Black-Box Adversarial Attacks against Neural Ranking Models.](https://arxiv.org/pdf/2204.01321) *Chen Wu et.al.* Arxiv 2022
+- [Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models](https://arxiv.org/pdf/2209.06506.pdf) *Jiawei Liu et.al.* CCS 2022
+- [Are Neural Ranking Models Robust?](https://arxiv.org/pdf/2108.05018.pdf) *Chen Wu et.al.* TOIS
+- [Certified Robustness to Word Substitution Ranking Attack for Neural Ranking Models](https://arxiv.org/pdf/2209.06691.pdf) *Chen Wu et.al.* CIKM 2022
 
 
 
