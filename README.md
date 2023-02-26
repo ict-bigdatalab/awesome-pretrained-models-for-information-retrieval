@@ -119,6 +119,7 @@
  
 ## Survey Papers
 - [Pre-training Methods in Information Retrieval.](https://arxiv.org/pdf/2111.13853.pdf) *Yixing Fan, Xiaohui Xie et.al.*  FnTIR 2022
+- [Dense Text Retrieval based on Pretrained Language Models: A Survey.](https://arxiv.org/pdf/2211.14876.pdf) *Wayne Xin Zhao, Jing Liu et.al.* Arxiv 2022
 - [Pretrained Transformers for Text Ranking: BERT and Beyond.](https://arxiv.org/abs/2010.06467) *Jimmy Lin et.al.*  M&C 2021
 - [Semantic Models for the First-stage Retrieval: A Comprehensive Review.](https://arxiv.org/pdf/2103.04831.pdf) *Jiafeng Guo et.al.* TOIS 2021
 - [A Deep Look into neural ranking models for information retrieval.](https://arxiv.org/abs/1903.06902) *Jiafeng Guo et.al.* IPM 2020
@@ -211,6 +212,8 @@
 - [Distill-VQ: Learning Retrieval Oriented Vector Quantization By Distilling Knowledge from Dense Embeddings.](https://arxiv.org/pdf/2204.00185.pdf) *Shitao Xiao et.al.* SIGIR 2022. [[code](https://github.com/staoxiao/LibVQ)]
 
 
+#### Multi-hop dense retrieval
+- [Answering Complex Open-Domain Questions with Multi-Hop Dense Retrieval.](https://arxiv.org/pdf/2009.12756.pdf) *Wenhan Xiong, Xiang Lorraine Li et.al.* ICLR 2021 [[code](https://github.com/facebookresearch/multihop_dense_retrieval)] (**Iteratively encode the question and previously retrieved documents as query vectors**)
 
 #### Domain adaptation
 - [Multi-Task Retrieval for Knowledge-Intensive Tasks.](https://arxiv.org/pdf/2101.00117.pdf) *Jean Maillard, Vladimir Karpukhin^ et.al.*  ACL 2021. (**Multi-task learning**)
@@ -227,6 +230,8 @@
 #### Bias
 - [Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach.](https://arxiv.org/pdf/2204.00718.pdf) *Shengyao Zhuang et.al.* SIGIR 2022. [[code](https://github.com/ielab/Counterfactual-DR)] (**CoRocchio, Counterfactual Rocchio algorithm**)
 - [Hard Negatives or False Negatives: Correcting Pooling Bias in Training Neural Ranking Models.](https://arxiv.org/pdf/2209.05072.pdf) *Yinqiong Cai et.al.* CIKM 2022.
+
+
 
 ### Hybrid Retrieval
 - [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index.](https://arxiv.org/pdf/1906.05807.pdf) *Minjoon Seo,Jinhyuk Lee et.al.* ACL 2019. [[code](https://github.com/uwnlp/denspi)] (**DENSPI**)
