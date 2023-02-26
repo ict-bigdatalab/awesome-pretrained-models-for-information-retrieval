@@ -142,6 +142,7 @@
 #### Query or document expansion
 - [Document Expansion by Query Prediction.](https://arxiv.org/pdf/1904.08375.pdf) *Rodrigo Nogueira et.al.* [[doc2query code](https://github.com/nyu-dl/dl4ir-doc2query), [docTTTTTquery code](https://github.com/castorini/docTTTTTquery)] (**doc2query, docTTTTTquery**)
 - [Generation-Augmented Retrieval for Open-Domain Question Answering.](https://arxiv.org/pdf/2009.08553.pdf) *Yuning Mao et.al.* ACL 2021. [[code](https://github.com/morningmoni/GAR)] (**query expansion with BART**)
+- [Unsupervised Document Expansion for Information Retrieval with Stochastic Text Generation.](https://arxiv.org/abs/2105.00666) *Jeong et.al.* arXiv 2021. [[code](https://github.com/starsuzi/UDEG)] (**unsupervised document expansion**)
 
 
 <!-- #### Combining neural term re-weighting and document expansion -->
@@ -202,6 +203,7 @@
 - [H-ERNIE: A Multi-Granularity Pre-Trained Language Model for Web Search.](https://dl.acm.org/doi/pdf/10.1145/3477495.3531986) *Xiaokai Chu et.al.* SIGIR 2022. (**H-ERNIE**)
 - [Structure and Semantics Preserving Document Representations.](https://arxiv.org/pdf/2201.03720.pdf) *Natraj Raman et.al.* SIGIR 2022.
 - [Contriever: Unsupervised Dense Information Retrieval with Contrastive Learning.](https://arxiv.org/pdf/2112.09118.pdf) *Gautier Izacard et.al.* TMLR 2022. [[code](https://github.com/facebookresearch/contriever)] (**Contriever**)
+- [Augmenting Document Representations for Dense Retrieval with Interpolation and Perturbation.](https://arxiv.org/abs/2203.07735) *Jeong et.al.* ACL 2022. [[code](https://github.com/starsuzi/DAR)] (**Augmentation for Dense Retrieval**)
 
 
 #### Jointly learning retrieval and indexing
