@@ -405,8 +405,8 @@
 - [Precise Zero-Shot Dense Retrieval without Relevance Labels.](https://arxiv.org/pdf/2212.10496.pdf) *Luyu Gao, Xueguang Ma et.al.* Arxiv 2022. [[code](https://github.com/texttron/hyde)] (**HyDE,InstructGPT generate pseudo doc and Contriever retireve the real one**)
 - [Generate rather than Retrieve: Large Language Models are Strong Context Generators.](https://arxiv.org/pdf/2209.10063.pdf) *Wenhao Yu et.al.* ICLR 2023. [[code](https://github.com/wyu97/GenRead)] (**GenRead,generate pseudo doc with InstructGPT for reader**)
 - [Recitation-Augmented Language Models.](https://arxiv.org/pdf/2210.01296.pdf) *Zhiqing Sun et.al.* ICLR 2023. [[code](https://github.com/Edward-Sun/RECITE)] (**similar to GenRead**)
-
-
+- [Generative Relevance Feedback with Large Language Models.](https://arxiv.org/pdf/2304.13157.pdf) *Iain Mackie et.al.* SIGIR 2023 short. (**GRF, GPT3 for relevance feedback**)
+- [Demonstrate–Search–Predict: Composing retrieval and language models for knowledge-intensive NLP.](https://arxiv.org/pdf/2212.14024.pdf) *Omar Khattab  et.al.* Arxiv 2023.[[code](https://github.com/stanfordnlp/dsp)](**DSP program, GPT3.5**)
 
 
 ## Multimodal Retrieval
