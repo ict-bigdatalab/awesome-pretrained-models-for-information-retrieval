@@ -395,10 +395,10 @@
 
 ### Retrieval Augmented LLM
 - [Retrieval-augmented generation for knowledge-intensive NLP tasks.](https://arxiv.org/pdf/2005.11401.pdf) *Patrick Lewis, Ethan Perez et.al.* NIPS 2020. (**RAG, for 440M BART**)
-- [Improving Language Models by Retrieving from Trillions of Tokens.](https://arxiv.org/pdf/2112.04426.pdf) *Sebastian Borgeaud, Arthur Mensch†,Jordan Hoffmann et.al.*  ICML 2022. [[code](https://github.com/facebookresearch/FiD)](***RETRO, enc-dec 7.5B**)
+- [Improving Language Models by Retrieving from Trillions of Tokens.](https://arxiv.org/pdf/2112.04426.pdf) *Sebastian Borgeaud, Arthur Mensch, Jordan Hoffmann et.al.*  ICML 2022. [[code](https://github.com/facebookresearch/FiD)](***RETRO, enc-dec 7.5B**)
 - [Atlas: Few-shot Learning with Retrieval Augmented Language Models.](https://arxiv.org/pdf/2208.03299.pdf) *Gautier Izacard, Patrick Lewis et.al.* Arxiv 2022. [[code](https://github.com/facebookresearch/atlas)] (**Atlas, T5, 11B**)
 - [WebGPT: Browser-assisted question-answering with human feedback.](https://arxiv.org/pdf/2112.09332.pdf) *Reiichiro Nakano,Jacob Hilton,Suchir Balaji et.al.* Arxiv 2022. (**WebGPT, GPT3**)
-- [Internet-augmented language models through few-shot prompting for open-domain question answering.](https://arxiv.org/pdf/2203.05115.pdf) *Angeliki Lazaridou et.al.* Arxiv 2022. (**Conditioning on Google search results**)
+- [Internet-augmented language models through few-shot prompting for open-domain question answering.](https://arxiv.org/pdf/2203.05115.pdf) *Angeliki Lazaridou et.al.* Arxiv 2022. (**Gopher 280B, Conditioning on Google search results**)
 
 
 ### LLM for Retrieval
