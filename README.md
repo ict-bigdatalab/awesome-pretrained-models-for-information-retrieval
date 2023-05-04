@@ -193,7 +193,7 @@
 - [Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index.](https://arxiv.org/pdf/1906.05807.pdf) *Minjoon Seo,Jinhyuk Lee et.al.* ACL 2019. [[code](https://github.com/uwnlp/denspi)] (**DENSPI**)
 - [Learning Dense Representations of Phrases at Scale.](https://arxiv.org/pdf/2012.12624.pdf) *Jinhyuk Lee, Danqi Chen et.al.* ACL 2021. [[code](https://github.com/jhyuklee/DensePhrases)] (**DensePhrases**)
 - [Multi-View Document Representation Learning for Open-Domain Dense Retrieval.](https://arxiv.org/pdf/2203.08372.pdf) *Shunyu Zhang et.al.* ACL 2022. (**MVR**)
-
+- [Multivariate Representation Learning for Information Retrieval.](https://arxiv.org/pdf/2304.14522.pdf) *Hamed Zamani et.al.* SIGIR 2023. (**Learn multivariate distributions**)
 
 #### Knowledge distillation
 - [Distilling Knowledge from Reader to Retriever for Question Answering.](https://arxiv.org/pdf/2012.04584.pdf) *Gautier Izacard, Edouard Grave.* ICLR 2020. [[unofficial code](https://github.com/lucidrains/distilled-retriever-pytorch)] (**Distill cross-attention of reader to retriever**)
@@ -361,7 +361,7 @@
 - [Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models](https://arxiv.org/pdf/2209.06506.pdf) *Jiawei Liu et.al.* CCS 2022
 - [Are Neural Ranking Models Robust?](https://arxiv.org/pdf/2108.05018.pdf) *Chen Wu et.al.* TOIS
 - [Certified Robustness to Word Substitution Ranking Attack for Neural Ranking Models](https://arxiv.org/pdf/2209.06691.pdf) *Chen Wu et.al.* CIKM 2022
-
+- [Topic-oriented Adversarial Attacks against Black-box Neural Ranking Models.](https://arxiv.org/pdf/2304.14867.pdf) *Yu-An Liu et.al.* SIGIR 2023. 
 
 
 
@@ -389,7 +389,7 @@
 - [A Neural Corpus Indexer for Document Retrieval.](https://arxiv.org/pdf/2206.02743.pdf) *Yujing Wang et.al.* Arxiv 2022. (**NCI**)
 - [Autoregressive Search Engines: Generating Substrings as Document Identifiers.](https://arxiv.org/pdf/2204.10628.pdf) *Michele Bevilacqua et.al.* Arxiv 2022. [[code](https://github.com/facebookresearch/SEAL)] (**SEAL**)
 - [CorpusBrain: Pre-train a Generative Retrieval Model for Knowledge-Intensive Language Tasks.](https://arxiv.org/pdf/2208.07652.pdf) *Jiangui Chen et.al.* CIKM 2022. [[code](https://github.com/ict-bigdatalab/CorpusBrain)] (**CorpusBrain**)
-
+- [A Unified Generative Retriever for Knowledge-Intensive Language Tasks via Prompt Learning.](https://arxiv.org/pdf/2304.14856.pdf) *Jiangui Chen et.al.* SIGIR 2023. [[code](https://github.com/ict-bigdatalab/UGR)] (**UGR**)
 
 ## LLM and IR
 
