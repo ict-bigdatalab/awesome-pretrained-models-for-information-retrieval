@@ -107,7 +107,7 @@
 
   <details>
   <summary>
-    <a href="#llm-for-retrieval">LLM for IR</a>
+    <a href="#llm-for-ir">LLM for IR</a>
   </summary>
 
   </details>
