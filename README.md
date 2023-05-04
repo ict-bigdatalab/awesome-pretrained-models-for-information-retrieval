@@ -107,7 +107,7 @@
 
   <details>
   <summary>
-    <a href="#llm-for-retrieval">LLM for Retrieval</a>
+    <a href="#llm-for-retrieval">LLM for IR</a>
   </summary>
 
   </details>
@@ -401,7 +401,7 @@
 - [Internet-augmented language models through few-shot prompting for open-domain question answering.](https://arxiv.org/pdf/2203.05115.pdf) *Angeliki Lazaridou et.al.* Arxiv 2022. (**Gopher 280B, Conditioning on Google search results**)
 
 
-### LLM for Retrieval
+### LLM for IR
 - [Task-aware Retrieval with Instructions.](https://arxiv.org/pdf/2211.09260.pdf) *Akari Asai, Timo Schick et.al.* Arxiv 2022. [[code](https://github.com/facebookresearch/tart)] (**TART, BERRI 40 tasks with instructions,1.5B FLAN-T5**)
 - [One Embedder, Any Task: Instruction-Finetuned Text Embeddings.](https://arxiv.org/pdf/2212.09741.pdf) *Hongjin Su, Weijia Shi et.al.* [[code](https://github.com/HKUNLP/instructor-embedding)](**Intructor, 330 diverse tasks, 1.5B model**)
 - [Precise Zero-Shot Dense Retrieval without Relevance Labels.](https://arxiv.org/pdf/2212.10496.pdf) *Luyu Gao, Xueguang Ma et.al.* Arxiv 2022. [[code](https://github.com/texttron/hyde)] (**HyDE,InstructGPT generate pseudo doc and Contriever retireve the real one**)
@@ -409,6 +409,7 @@
 - [Recitation-Augmented Language Models.](https://arxiv.org/pdf/2210.01296.pdf) *Zhiqing Sun et.al.* ICLR 2023. [[code](https://github.com/Edward-Sun/RECITE)] (**similar to GenRead**)
 - [Generative Relevance Feedback with Large Language Models.](https://arxiv.org/pdf/2304.13157.pdf) *Iain Mackie et.al.* SIGIR 2023 short. (**GRF, GPT3 for relevance feedback**)
 - [Demonstrate–Search–Predict: Composing retrieval and language models for knowledge-intensive NLP.](https://arxiv.org/pdf/2212.14024.pdf) *Omar Khattab  et.al.* Arxiv 2023.[[code](https://github.com/stanfordnlp/dsp)](**DSP program, GPT3.5**)
+- [Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent.](https://arxiv.org/pdf/2304.09542.pdf) *Weiwei Sun  et.al.* Arxiv 2023.[[code](https://github.com/sunnweiwei/RankGPT)](**Passage reranking with ChatGPT/GPT4**)
 
 
 ## Multimodal Retrieval
