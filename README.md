@@ -443,14 +443,19 @@
 - [Perspectives on Large Language Models for Relevance Judgment.](https://arxiv.org/pdf/2304.09161.pdf) *Guglielmo Faggioli et.al.* Arxiv 2023. (**Perspective Paper**)
 - [Zero-Shot Listwise Document Reranking with a Large Language Model.](https://arxiv.org/pdf/2305.02156.pdf) *Xueguang Ma et.al.* Arxiv 2023. (**LRL, generate rank list with GPT3**)
 - [Large Language Models are Built-in Autoregressive Search Engines.](https://arxiv.org/pdf/2305.09612.pdf) *Noah Ziems et.al.* Arxiv 2023. (**LLM-URL, use GPT-3 text-davinci-003 to generate URL, model-based IR**)
-- [Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent.](https://arxiv.org/pdf/2304.09542.pdf) *Weiwei Sun  et.al.* Arxiv 2023.[[code](https://github.com/sunnweiwei/RankGPT)](**Passage reranking with ChatGPT/GPT4**)
+- [Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent.](https://arxiv.org/pdf/2304.09542.pdf) *Weiwei Sun  et.al.* EMNLP main 2023.[[code](https://github.com/sunnweiwei/RankGPT)](**Zero-shot Passage reranking with ChatGPT/GPT4**)
+- [RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models.](https://arxiv.org/pdf/2309.15088.pdf) *Ronak Pradeep et.al.* Arxiv 2023. [[code](https://github.com/castorini/rank_llm)]
+- [Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models.](https://arxiv.org/pdf/2310.07712.pdf) *Raphael Tang, Xinyu Zhang et.al.* Arxiv 2023. [[code](https://github.com/castorini/perm-sc)]
+- [Fine-Tuning LLaMA for Multi-Stage Text Retrieval.](https://arxiv.org/pdf/2310.08319.pdf) *Xueguang Ma et.al.* Arxiv 2023.
 
 
-#### Text Generation based on IR
+#### Retrieval-Augmented Text Generation
 - [WebGPT: Browser-assisted question-answering with human feedback.](https://arxiv.org/pdf/2112.09332.pdf) *Reiichiro Nakano,Jacob Hilton,Suchir Balaji et.al.* Arxiv 2022. (**WebGPT, GPT3**)
 - [Teaching language models to support answers with verified quotes.](https://arxiv.org/pdf/2203.11147.pdf) *DeepMind* Arxiv 2022.
 - [Evaluating Verifiability in Generative Search Engines.](https://arxiv.org/pdf/2304.09848.pdf) *Nelson F. Liu et.al.* Arxiv 2023. [[code](https://github.com/nelson-liu/evaluating-verifiability-in-generative-search-engines)]
 - [Enabling Large Language Models to Generate Text with Citations.](https://arxiv.org/pdf/2305.14627.pdf) *Tianyu Gao et.al.* Arxiv 2023. [[code](https://github.com/princeton-nlp/ALCE)] (**ALCE benchmark**)
+- [FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation.](https://arxiv.org/pdf/2310.03214.pdf) *Tu Vu et.al.* Arxiv 2023. [[code](https://github.com/freshllms/freshqa)]
+- [Retrieve Anything To Augment Large Language Models.](https://arxiv.org/pdf/2310.07554.pdf) *Peitian Zhang, Shitao Xiao et.al.* Arxiv 2023. [[code](https://github.com/FlagOpen/FlagEmbedding)]
 
 
 #### Others
