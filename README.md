@@ -410,8 +410,14 @@
 - [Atlas: Few-shot Learning with Retrieval Augmented Language Models.](https://arxiv.org/pdf/2208.03299.pdf) *Gautier Izacard, Patrick Lewis et.al.* Arxiv 2022. [[code](https://github.com/facebookresearch/atlas)] (**Atlas, T5, 11B**)
 - [Internet-augmented language models through few-shot prompting for open-domain question answering.](https://arxiv.org/pdf/2203.05115.pdf) *Angeliki Lazaridou et.al.* Arxiv 2022. (**Gopher 280B, Conditioning on Google search results**)
 - [Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy.](https://arxiv.org/pdf/2305.15294.pdf) *Zhihong Shao et.al.* Arxiv 2023.
+- [Instruction Tuning post Retrieval-Augmented Pretraining.](https://arxiv.org/pdf/2310.07713.pdf) *Boxin Wang et.al.* Arxiv 2023.
+- [Retrieve Anything To Augment Large Language Models.](https://arxiv.org/pdf/2310.07554.pdf)
 
 ### LLM for IR
+
+#### Survey or Perspectives
+
+- [Large Search Model: Redefining Search Stack in the Era of LLMs.](https://arxiv.org/pdf/2310.14587.pdf) *Liang Wang, Nan Yang et.al.*
 
 
 #### Synthetic Query Generation
@@ -447,6 +453,12 @@
 - [RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models.](https://arxiv.org/pdf/2309.15088.pdf) *Ronak Pradeep et.al.* Arxiv 2023. [[code](https://github.com/castorini/rank_llm)]
 - [Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models.](https://arxiv.org/pdf/2310.07712.pdf) *Raphael Tang, Xinyu Zhang et.al.* Arxiv 2023. [[code](https://github.com/castorini/perm-sc)]
 - [Fine-Tuning LLaMA for Multi-Stage Text Retrieval.](https://arxiv.org/pdf/2310.08319.pdf) *Xueguang Ma et.al.* Arxiv 2023.
+- [PaRaDe: Passage Ranking using Demonstrations with Large Language Models.](https://arxiv.org/pdf/2310.14408.pdf) *Andrew Drozdov et.al.* Arxiv 2023.
+- [A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models.](https://arxiv.org/pdf/2310.09497.pdf) *Shengyao Zhuang et.al.* Arxiv 2023.
+- [Open-source Large Language Models are Strong Zero-shot Query Likelihood Models for Document Ranking.](https://arxiv.org/pdf/2310.13243.pdf) *Shengyao Zhuang et.al.* Arxiv 2023. [[code](https://github.com/ielab/llm-qlm)]
+- [PaRaDe: Passage Ranking using Demonstrations with Large Language Models.](https://arxiv.org/pdf/2310.14408.pdf) *Andrew Drozdov et.al.* Arxiv 2023.
+- [Beyond Yes and No: Improving Zero-Shot LLM Rankers via Scoring Fine-Grained Relevance Labels.](https://arxiv.org/pdf/2310.14122.pdf) *Honglei Zhuang et.al.* Arxiv 2023.
+- [Large Language Models can Accurately Predict Searcher Preferences.](https://arxiv.org/pdf/2309.10621.pdf) *Paul Thomas et.al.* Arxiv 2023.
 
 
 #### Retrieval-Augmented Text Generation
@@ -456,10 +468,15 @@
 - [Enabling Large Language Models to Generate Text with Citations.](https://arxiv.org/pdf/2305.14627.pdf) *Tianyu Gao et.al.* Arxiv 2023. [[code](https://github.com/princeton-nlp/ALCE)] (**ALCE benchmark**)
 - [FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation.](https://arxiv.org/pdf/2310.03214.pdf) *Tu Vu et.al.* Arxiv 2023. [[code](https://github.com/freshllms/freshqa)]
 - [Retrieve Anything To Augment Large Language Models.](https://arxiv.org/pdf/2310.07554.pdf) *Peitian Zhang, Shitao Xiao et.al.* Arxiv 2023. [[code](https://github.com/FlagOpen/FlagEmbedding)]
+- [Leveraging Event Schema to Ask Clarifying Questions for
+Conversational Legal Case Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3583780.3614953) *Bulou Liu et.al.* CIKM 2023.
+- [Know Where to Go: Make LLM a Relevant, Responsible, and Trustworthy Searcher.](https://arxiv.org/pdf/2310.12443.pdf) *Xiang Shi et.al.*
 
 
 #### Others
 - [Demonstrate–Search–Predict: Composing retrieval and language models for knowledge-intensive NLP.](https://arxiv.org/pdf/2212.14024.pdf) *Omar Khattab  et.al.* Arxiv 2023.[[code](https://github.com/stanfordnlp/dsp)](**DSP program, GPT3.5**)
+
+
 
 
 ## Multimodal Retrieval
