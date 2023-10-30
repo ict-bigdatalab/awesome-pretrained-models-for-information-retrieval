@@ -415,9 +415,10 @@
 
 ### LLM for IR
 
-#### Survey or Perspectives
+<!-- #### Survey or Perspectives
 
-- [Large Search Model: Redefining Search Stack in the Era of LLMs.](https://arxiv.org/pdf/2310.14587.pdf) *Liang Wang, Nan Yang et.al.*
+- []
+- [Large Search Model: Redefining Search Stack in the Era of LLMs.](https://arxiv.org/pdf/2310.14587.pdf) *Liang Wang, Nan Yang et.al.* -->
 
 
 #### Synthetic Query Generation
