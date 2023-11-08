@@ -431,7 +431,7 @@
 - [Generative Relevance Feedback with Large Language Models.](https://arxiv.org/pdf/2304.13157.pdf) *Iain Mackie et.al.* SIGIR 2023 short. (**GRF, generate various info with GPT3 for relevance feedback**)
 - [Query Expansion by Prompting Large Language Models.](https://arxiv.org/pdf/2305.03653.pdf) *Rolf Jagerman et.al.* Arxiv 2023.
 - [Exploring the Viability of Synthetic Query Generation for Relevance Prediction.](https://arxiv.org/pdf/2305.11944.pdf) *Aditi Chaudhary et.al.* Arxiv 2023. (**FLAN-137B label conditioned generation**)
-
+- [Large Language Model based Long-tail Query Rewriting in Taobao Search.](https://arxiv.org/pdf/2311.03758.pdf) *Wenjun Peng et.al.* Arxiv 2023.
 
 #### Synthetic Document Generation
 - [Generate rather than Retrieve: Large Language Models are Strong Context Generators.](https://arxiv.org/pdf/2209.10063.pdf) *Wenhao Yu et.al.* ICLR 2023. [[code](https://github.com/wyu97/GenRead)] (**GenRead,generate pseudo doc with InstructGPT for reader**)
@@ -451,10 +451,10 @@
 - [Zero-Shot Listwise Document Reranking with a Large Language Model.](https://arxiv.org/pdf/2305.02156.pdf) *Xueguang Ma et.al.* Arxiv 2023. (**LRL, generate rank list with GPT3**)
 - [Large Language Models are Built-in Autoregressive Search Engines.](https://arxiv.org/pdf/2305.09612.pdf) *Noah Ziems et.al.* Arxiv 2023. (**LLM-URL, use GPT-3 text-davinci-003 to generate URL, model-based IR**)
 - [Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent.](https://arxiv.org/pdf/2304.09542.pdf) *Weiwei Sun  et.al.* EMNLP main 2023.[[code](https://github.com/sunnweiwei/RankGPT)](**Zero-shot Passage reranking with ChatGPT/GPT4**)
+- [Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting.](https://arxiv.org/pdf/2306.17563.pdf) *Zhen Qin et.al.* Arxiv 2023.
 - [RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models.](https://arxiv.org/pdf/2309.15088.pdf) *Ronak Pradeep et.al.* Arxiv 2023. [[code](https://github.com/castorini/rank_llm)]
 - [Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models.](https://arxiv.org/pdf/2310.07712.pdf) *Raphael Tang, Xinyu Zhang et.al.* Arxiv 2023. [[code](https://github.com/castorini/perm-sc)]
 - [Fine-Tuning LLaMA for Multi-Stage Text Retrieval.](https://arxiv.org/pdf/2310.08319.pdf) *Xueguang Ma et.al.* Arxiv 2023.
-- [PaRaDe: Passage Ranking using Demonstrations with Large Language Models.](https://arxiv.org/pdf/2310.14408.pdf) *Andrew Drozdov et.al.* Arxiv 2023.
 - [A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models.](https://arxiv.org/pdf/2310.09497.pdf) *Shengyao Zhuang et.al.* Arxiv 2023.
 - [Open-source Large Language Models are Strong Zero-shot Query Likelihood Models for Document Ranking.](https://arxiv.org/pdf/2310.13243.pdf) *Shengyao Zhuang et.al.* Arxiv 2023. [[code](https://github.com/ielab/llm-qlm)]
 - [PaRaDe: Passage Ranking using Demonstrations with Large Language Models.](https://arxiv.org/pdf/2310.14408.pdf) *Andrew Drozdov et.al.* Arxiv 2023.
