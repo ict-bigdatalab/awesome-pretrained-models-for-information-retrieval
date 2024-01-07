@@ -110,6 +110,7 @@
     <a href="#llm-for-ir">LLM for IR</a>
   </summary>
 
+    - [Perspectives or Surveys](#perspectives-or-surveys)
     - [Synthetic Query Generation](#synthetic-query-generation)
     - [Synthetic Document Generation](#synthetic-document-generation)
     - [LLM for Relevance Scoring](#llm-for-relevance-scoring)
@@ -404,6 +405,12 @@
 
 ## LLM and IR
 
+### Perspectives or Surveys
+- [Information Retrieval meets Large Language Models: A strategic report from Chinese IR community.](https://arxiv.org/pdf/2307.09751.pdf) *Qingyao AI et.al.* The CCIR community. AI Open 2023.
+- [Large Language Models for Information Retrieval: A Survey.](https://arxiv.org/pdf/2308.07107.pdf) *Yutao Zhu et.al.*  Renmin University of China. Arxiv 2023. 
+- [Navigating Complex Search Tasks with AI Copilots.](https://arxiv.org/pdf/2005.11401.pdf) *Ryen W. White*  Microsoft Research. Arxiv 2023. 
+
+
 ### Retrieval Augmented LLM
 - [Retrieval-augmented generation for knowledge-intensive NLP tasks.](https://arxiv.org/pdf/2005.11401.pdf) *Patrick Lewis, Ethan Perez et.al.* NIPS 2020. (**RAG, for 440M BART**)
 - [Improving Language Models by Retrieving from Trillions of Tokens.](https://arxiv.org/pdf/2112.04426.pdf) *Sebastian Borgeaud, Arthur Mensch, Jordan Hoffmann et.al.*  ICML 2022. [[code](https://github.com/facebookresearch/FiD)](***RETRO, enc-dec 7.5B**)
@@ -432,6 +439,9 @@
 - [Query Expansion by Prompting Large Language Models.](https://arxiv.org/pdf/2305.03653.pdf) *Rolf Jagerman et.al.* Arxiv 2023.
 - [Exploring the Viability of Synthetic Query Generation for Relevance Prediction.](https://arxiv.org/pdf/2305.11944.pdf) *Aditi Chaudhary et.al.* Arxiv 2023. (**FLAN-137B label conditioned generation**)
 - [Large Language Model based Long-tail Query Rewriting in Taobao Search.](https://arxiv.org/pdf/2311.03758.pdf) *Wenjun Peng et.al.* Arxiv 2023.
+- [Generate, Filter, and Fuse: Query Expansion via Multi-Step Keyword
+Generation for Zero-Shot Neural Rankers.](https://arxiv.org/pdf/2311.09175.pdf) *Minghan Li et.al.* Arxiv 2023. (**Use Flan-PaLM2-S for keywords generation**)
+
 
 #### Synthetic Document Generation
 - [Generate rather than Retrieve: Large Language Models are Strong Context Generators.](https://arxiv.org/pdf/2209.10063.pdf) *Wenhao Yu et.al.* ICLR 2023. [[code](https://github.com/wyu97/GenRead)] (**GenRead,generate pseudo doc with InstructGPT for reader**)
@@ -460,6 +470,12 @@
 - [PaRaDe: Passage Ranking using Demonstrations with Large Language Models.](https://arxiv.org/pdf/2310.14408.pdf) *Andrew Drozdov et.al.* Arxiv 2023.
 - [Beyond Yes and No: Improving Zero-Shot LLM Rankers via Scoring Fine-Grained Relevance Labels.](https://arxiv.org/pdf/2310.14122.pdf) *Honglei Zhuang et.al.* Arxiv 2023.
 - [Large Language Models can Accurately Predict Searcher Preferences.](https://arxiv.org/pdf/2309.10621.pdf) *Paul Thomas et.al.* Arxiv 2023.
+- [RankZephyr: Effective and Robust Zero-Shot Listwise Reranking is a Breeze!](https://arxiv.org/pdf/2312.02724.pdf) *Ronak Pradeep et.al.*  Arxiv 2023.
+- [Rank-without-GPT: Building GPT-Independent Listwise Rerankers on Open-Source Large Language Models.](https://arxiv.org/pdf/2312.02969.pdf) *Xinyu Zhang et.al.* Arxiv 2023.
+
+
+#### LLM for Generative Retrieval
+- [ACID: Abstractive, Content-Based IDs for Document Retrieval with Language Models.](https://arxiv.org/pdf/2311.08593.pdf) *Haoxin Li et.al.* Arxiv 2023. (**Using GPT-3.5 generate keyphrases**)
 
 
 #### Retrieval-Augmented Text Generation
@@ -472,7 +488,7 @@
 - [Leveraging Event Schema to Ask Clarifying Questions for
 Conversational Legal Case Retrieval.](https://dl.acm.org/doi/pdf/10.1145/3583780.3614953) *Bulou Liu et.al.* CIKM 2023.
 - [Know Where to Go: Make LLM a Relevant, Responsible, and Trustworthy Searcher.](https://arxiv.org/pdf/2310.12443.pdf) *Xiang Shi et.al.*
-
+- [Evaluating Generative Ad Hoc Information Retrieval.](https://arxiv.org/pdf/2311.04694.pdf) *Lukas Gienapp et.al.* Arxiv 2023.
 
 #### Others
 - [Demonstrate–Search–Predict: Composing retrieval and language models for knowledge-intensive NLP.](https://arxiv.org/pdf/2212.14024.pdf) *Omar Khattab  et.al.* Arxiv 2023.[[code](https://github.com/stanfordnlp/dsp)](**DSP program, GPT3.5**)
