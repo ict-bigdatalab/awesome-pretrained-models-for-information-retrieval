@@ -441,6 +441,7 @@
 - [Large Language Model based Long-tail Query Rewriting in Taobao Search.](https://arxiv.org/pdf/2311.03758.pdf) *Wenjun Peng et.al.* Arxiv 2023.
 - [Generate, Filter, and Fuse: Query Expansion via Multi-Step Keyword Generation for Zero-Shot Neural Rankers.](https://arxiv.org/pdf/2311.09175.pdf) *Minghan Li et.al.* Arxiv 2023. (**Use Flan-PaLM2-S for keywords generation**)
 - [Leveraging LLMs for Synthesizing Training Data Across Many Languages in Multilingual Dense Retrieval.](https://arxiv.org/pdf/2311.05800.pdf) *Nandan Thakur et.al.* Arxiv 2023.
+- [ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance.](https://arxiv.org/pdf/2502.17057.pdf) *Sijia Yao, Pengcheng Huang et.al.* EMNLP 2025. [[code](https://github.com/NEUIR/ExpandR)] (**Jointly optimize an LLM query expander (DPO with ranking-based rewards) and the dense retriever trained on its expansions**)
 
 #### Synthetic Document Generation
 - [Generate rather than Retrieve: Large Language Models are Strong Context Generators.](https://arxiv.org/pdf/2209.10063.pdf) *Wenhao Yu et.al.* ICLR 2023. [[code](https://github.com/wyu97/GenRead)] (**GenRead,generate pseudo doc with InstructGPT for reader**)
