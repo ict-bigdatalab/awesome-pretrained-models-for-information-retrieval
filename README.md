@@ -419,6 +419,8 @@
 - [Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy.](https://arxiv.org/pdf/2305.15294.pdf) *Zhihong Shao et.al.* Arxiv 2023.
 - [Instruction Tuning post Retrieval-Augmented Pretraining.](https://arxiv.org/pdf/2310.07713.pdf) *Boxin Wang et.al.* Arxiv 2023.
 - [Retrieve Anything To Augment Large Language Models.](https://arxiv.org/pdf/2310.07554.pdf)
+- [ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation.](https://arxiv.org/pdf/2502.15543.pdf) *Pengcheng Huang, Zhenghao Liu, Yukun Yan et.al.* NeurIPS 2025. [[code](https://github.com/OpenBMB/ParamMute)] (**Suppress over-activated, unfaithfulness-associated FFNs so the LLM relies on retrieved context; CoFaithfulQA benchmark**)
+- [SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation.](https://arxiv.org/pdf/2606.27786.pdf) *Ruochang Li, Pengcheng Huang et.al.* Arxiv 2026. [[code](https://github.com/OpenBMB/SPARK)] (**A lightweight policy scales each FFN sublayer per decoding step on a frozen LLM to mitigate context-memory conflicts**)
 
 ### LLM for IR
 
